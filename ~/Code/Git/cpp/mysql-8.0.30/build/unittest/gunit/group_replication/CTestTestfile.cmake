@@ -1,0 +1,16 @@
+# CMake generated Testfile for 
+# Source directory: /Users/dingrui/Code/Git/cpp/mysql-8.0.30/unittest/gunit/group_replication
+# Build directory: /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/unittest/gunit/group_replication
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+add_test(group_replication_member_info "/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/runtime_output_directory/group_replication_member_info-t")
+set_tests_properties(group_replication_member_info PROPERTIES  _BACKTRACE_TRIPLES "/Users/dingrui/Code/Git/cpp/mysql-8.0.30/cmake/mysql_add_executable.cmake;176;ADD_TEST;/Users/dingrui/Code/Git/cpp/mysql-8.0.30/unittest/gunit/group_replication/CMakeLists.txt;51;MYSQL_ADD_EXECUTABLE;/Users/dingrui/Code/Git/cpp/mysql-8.0.30/unittest/gunit/group_replication/CMakeLists.txt;0;")
+add_test(group_replication_compatibility_module "/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/runtime_output_directory/group_replication_compatibility_module-t")
+set_tests_properties(group_replication_compatibility_module PROPERTIES  _BACKTRACE_TRIPLES "/Users/dingrui/Code/Git/cpp/mysql-8.0.30/cmake/mysql_add_executable.cmake;176;ADD_TEST;/Users/dingrui/Code/Git/cpp/mysql-8.0.30/unittest/gunit/group_replication/CMakeLists.txt;51;MYSQL_ADD_EXECUTABLE;/Users/dingrui/Code/Git/cpp/mysql-8.0.30/unittest/gunit/group_replication/CMakeLists.txt;0;")
+add_test(group_replication_member_version "/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/runtime_output_directory/group_replication_member_version-t")
+set_tests_properties(group_replication_member_version PROPERTIES  _BACKTRACE_TRIPLES "/Users/dingrui/Code/Git/cpp/mysql-8.0.30/cmake/mysql_add_executable.cmake;176;ADD_TEST;/Users/dingrui/Code/Git/cpp/mysql-8.0.30/unittest/gunit/group_replication/CMakeLists.txt;51;MYSQL_ADD_EXECUTABLE;/Users/dingrui/Code/Git/cpp/mysql-8.0.30/unittest/gunit/group_replication/CMakeLists.txt;0;")
+add_test(group_replication_mysql_version_gcs_protocol_map "/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/runtime_output_directory/group_replication_mysql_version_gcs_protocol_map-t")
+set_tests_properties(group_replication_mysql_version_gcs_protocol_map PROPERTIES  _BACKTRACE_TRIPLES "/Users/dingrui/Code/Git/cpp/mysql-8.0.30/cmake/mysql_add_executable.cmake;176;ADD_TEST;/Users/dingrui/Code/Git/cpp/mysql-8.0.30/unittest/gunit/group_replication/CMakeLists.txt;51;MYSQL_ADD_EXECUTABLE;/Users/dingrui/Code/Git/cpp/mysql-8.0.30/unittest/gunit/group_replication/CMakeLists.txt;0;")
+add_test(group_replication_gcs_mysql_network_provider "/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/runtime_output_directory/group_replication_gcs_mysql_network_provider-t")
+set_tests_properties(group_replication_gcs_mysql_network_provider PROPERTIES  _BACKTRACE_TRIPLES "/Users/dingrui/Code/Git/cpp/mysql-8.0.30/cmake/mysql_add_executable.cmake;176;ADD_TEST;/Users/dingrui/Code/Git/cpp/mysql-8.0.30/unittest/gunit/group_replication/CMakeLists.txt;51;MYSQL_ADD_EXECUTABLE;/Users/dingrui/Code/Git/cpp/mysql-8.0.30/unittest/gunit/group_replication/CMakeLists.txt;0;")

@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "extra/libedit/libedit-20210910-3.1/src",
+		"source" : "extra/libedit/libedit-20210910-3.1/src"
+	}
+}

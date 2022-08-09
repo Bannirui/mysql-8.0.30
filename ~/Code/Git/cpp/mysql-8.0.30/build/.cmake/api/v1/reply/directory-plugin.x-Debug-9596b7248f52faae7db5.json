@@ -1,0 +1,87 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"INSTALL",
+			"INCLUDE"
+		],
+		"files" : 
+		[
+			"plugin/x/configure.cmake",
+			"plugin/x/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 46,
+				"parent" : 0
+			},
+			{
+				"file" : 0,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 48,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 52,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 56,
+				"parent" : 2
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "Development",
+			"destination" : "include",
+			"paths" : 
+			[
+				"~/Code/Git/cpp/mysql-8.0.30/build/plugin/x/generated/mysqlx_error.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Development",
+			"destination" : "include",
+			"paths" : 
+			[
+				"~/Code/Git/cpp/mysql-8.0.30/build/plugin/x/generated/mysqlx_ername.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Development",
+			"destination" : "include",
+			"paths" : 
+			[
+				"~/Code/Git/cpp/mysql-8.0.30/build/plugin/x/generated/mysqlx_version.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "plugin/x",
+		"source" : "plugin/x"
+	}
+}

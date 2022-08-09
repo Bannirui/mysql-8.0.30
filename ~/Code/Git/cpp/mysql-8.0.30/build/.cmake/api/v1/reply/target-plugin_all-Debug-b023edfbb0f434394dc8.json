@@ -1,0 +1,1317 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"ADD_CUSTOM_TARGET",
+			"ADD_DEPENDENCIES",
+			"MYSQL_ADD_PLUGIN"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt",
+			"cmake/plugin.cmake",
+			"plugin/test_service_sql_api/CMakeLists.txt",
+			"plugin/test_services/CMakeLists.txt",
+			"plugin/keyring_udf/CMakeLists.txt",
+			"plugin/connection_control/CMakeLists.txt",
+			"plugin/udf_services/CMakeLists.txt",
+			"plugin/version_token/CMakeLists.txt",
+			"plugin/x/CMakeLists.txt",
+			"sql/CMakeLists.txt",
+			"storage/archive/CMakeLists.txt",
+			"plugin/rewriter/CMakeLists.txt",
+			"plugin/semisync/CMakeLists.txt",
+			"plugin/auth/CMakeLists.txt",
+			"plugin/fulltext/CMakeLists.txt",
+			"plugin/group_replication/CMakeLists.txt",
+			"plugin/pfs_table_plugin/CMakeLists.txt",
+			"storage/csv/CMakeLists.txt",
+			"storage/blackhole/CMakeLists.txt",
+			"plugin/daemon_example/CMakeLists.txt",
+			"plugin/ddl_rewriter/CMakeLists.txt",
+			"plugin/keyring/CMakeLists.txt",
+			"plugin/replication_observers_example/CMakeLists.txt",
+			"plugin/rewrite_example/CMakeLists.txt",
+			"storage/example/CMakeLists.txt",
+			"storage/federated/CMakeLists.txt",
+			"storage/heap/CMakeLists.txt",
+			"storage/innobase/CMakeLists.txt",
+			"storage/myisam/CMakeLists.txt",
+			"storage/myisammrg/CMakeLists.txt",
+			"storage/perfschema/CMakeLists.txt",
+			"storage/secondary_engine_mock/CMakeLists.txt",
+			"storage/temptable/CMakeLists.txt",
+			"plugin/audit_null/CMakeLists.txt",
+			"plugin/password_validation/CMakeLists.txt",
+			"plugin/clone/CMakeLists.txt",
+			"plugin/test_plugins/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 2122,
+				"parent" : 0
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 133,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 288,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 27,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 288,
+				"parent" : 5
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 157,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 288,
+				"parent" : 7
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 39,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 288,
+				"parent" : 9
+			},
+			{
+				"file" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 49,
+				"parent" : 11
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 288,
+				"parent" : 12
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 32,
+				"parent" : 11
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 288,
+				"parent" : 14
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 38,
+				"parent" : 11
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 288,
+				"parent" : 16
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 44,
+				"parent" : 11
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 288,
+				"parent" : 18
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 26,
+				"parent" : 11
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 288,
+				"parent" : 20
+			},
+			{
+				"file" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 4,
+				"line" : 25,
+				"parent" : 22
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 288,
+				"parent" : 23
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 145,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 288,
+				"parent" : 25
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 45,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 288,
+				"parent" : 27
+			},
+			{
+				"file" : 5
+			},
+			{
+				"command" : 2,
+				"file" : 5,
+				"line" : 23,
+				"parent" : 29
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 288,
+				"parent" : 30
+			},
+			{
+				"file" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 6,
+				"line" : 23,
+				"parent" : 32
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 288,
+				"parent" : 33
+			},
+			{
+				"file" : 7
+			},
+			{
+				"command" : 2,
+				"file" : 7,
+				"line" : 23,
+				"parent" : 35
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 288,
+				"parent" : 36
+			},
+			{
+				"file" : 8
+			},
+			{
+				"command" : 2,
+				"file" : 8,
+				"line" : 93,
+				"parent" : 38
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 288,
+				"parent" : 39
+			},
+			{
+				"file" : 9
+			},
+			{
+				"command" : 2,
+				"file" : 9,
+				"line" : 1377,
+				"parent" : 41
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 288,
+				"parent" : 42
+			},
+			{
+				"command" : 2,
+				"file" : 9,
+				"line" : 1367,
+				"parent" : 41
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 288,
+				"parent" : 44
+			},
+			{
+				"file" : 10
+			},
+			{
+				"command" : 2,
+				"file" : 10,
+				"line" : 23,
+				"parent" : 46
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 288,
+				"parent" : 47
+			},
+			{
+				"file" : 11
+			},
+			{
+				"command" : 2,
+				"file" : 11,
+				"line" : 23,
+				"parent" : 49
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 288,
+				"parent" : 50
+			},
+			{
+				"file" : 12
+			},
+			{
+				"command" : 2,
+				"file" : 12,
+				"line" : 58,
+				"parent" : 52
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 288,
+				"parent" : 53
+			},
+			{
+				"command" : 2,
+				"file" : 12,
+				"line" : 48,
+				"parent" : 52
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 288,
+				"parent" : 55
+			},
+			{
+				"command" : 2,
+				"file" : 12,
+				"line" : 29,
+				"parent" : 52
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 288,
+				"parent" : 57
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 115,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 288,
+				"parent" : 59
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 139,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 288,
+				"parent" : 61
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 97,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 288,
+				"parent" : 63
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 109,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 288,
+				"parent" : 65
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 85,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 288,
+				"parent" : 67
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 33,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 288,
+				"parent" : 69
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 52,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 288,
+				"parent" : 71
+			},
+			{
+				"file" : 13
+			},
+			{
+				"command" : 2,
+				"file" : 13,
+				"line" : 25,
+				"parent" : 73
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 288,
+				"parent" : 74
+			},
+			{
+				"command" : 2,
+				"file" : 13,
+				"line" : 49,
+				"parent" : 73
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 288,
+				"parent" : 76
+			},
+			{
+				"command" : 2,
+				"file" : 13,
+				"line" : 44,
+				"parent" : 73
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 288,
+				"parent" : 78
+			},
+			{
+				"file" : 14
+			},
+			{
+				"command" : 2,
+				"file" : 14,
+				"line" : 33,
+				"parent" : 80
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 288,
+				"parent" : 81
+			},
+			{
+				"file" : 15
+			},
+			{
+				"command" : 2,
+				"file" : 15,
+				"line" : 183,
+				"parent" : 83
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 288,
+				"parent" : 84
+			},
+			{
+				"file" : 16
+			},
+			{
+				"command" : 2,
+				"file" : 16,
+				"line" : 27,
+				"parent" : 86
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 288,
+				"parent" : 87
+			},
+			{
+				"file" : 17
+			},
+			{
+				"command" : 2,
+				"file" : 17,
+				"line" : 27,
+				"parent" : 89
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 288,
+				"parent" : 90
+			},
+			{
+				"file" : 18
+			},
+			{
+				"command" : 2,
+				"file" : 18,
+				"line" : 23,
+				"parent" : 92
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 288,
+				"parent" : 93
+			},
+			{
+				"file" : 19
+			},
+			{
+				"command" : 2,
+				"file" : 19,
+				"line" : 23,
+				"parent" : 95
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 288,
+				"parent" : 96
+			},
+			{
+				"file" : 20
+			},
+			{
+				"command" : 2,
+				"file" : 20,
+				"line" : 25,
+				"parent" : 98
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 288,
+				"parent" : 99
+			},
+			{
+				"file" : 21
+			},
+			{
+				"command" : 2,
+				"file" : 21,
+				"line" : 27,
+				"parent" : 101
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 288,
+				"parent" : 102
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 58,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 288,
+				"parent" : 104
+			},
+			{
+				"file" : 22
+			},
+			{
+				"command" : 2,
+				"file" : 22,
+				"line" : 26,
+				"parent" : 106
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 288,
+				"parent" : 107
+			},
+			{
+				"file" : 23
+			},
+			{
+				"command" : 2,
+				"file" : 23,
+				"line" : 24,
+				"parent" : 109
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 288,
+				"parent" : 110
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 151,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 288,
+				"parent" : 112
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 91,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 288,
+				"parent" : 114
+			},
+			{
+				"file" : 24
+			},
+			{
+				"command" : 2,
+				"file" : 24,
+				"line" : 29,
+				"parent" : 116
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 288,
+				"parent" : 117
+			},
+			{
+				"file" : 25
+			},
+			{
+				"command" : 2,
+				"file" : 25,
+				"line" : 23,
+				"parent" : 119
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 288,
+				"parent" : 120
+			},
+			{
+				"file" : 26
+			},
+			{
+				"command" : 2,
+				"file" : 26,
+				"line" : 57,
+				"parent" : 122
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 288,
+				"parent" : 123
+			},
+			{
+				"file" : 27
+			},
+			{
+				"command" : 2,
+				"file" : 27,
+				"line" : 316,
+				"parent" : 125
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 288,
+				"parent" : 126
+			},
+			{
+				"file" : 28
+			},
+			{
+				"command" : 2,
+				"file" : 28,
+				"line" : 108,
+				"parent" : 128
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 288,
+				"parent" : 129
+			},
+			{
+				"file" : 29
+			},
+			{
+				"command" : 2,
+				"file" : 29,
+				"line" : 54,
+				"parent" : 131
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 288,
+				"parent" : 132
+			},
+			{
+				"file" : 30
+			},
+			{
+				"command" : 2,
+				"file" : 30,
+				"line" : 366,
+				"parent" : 134
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 288,
+				"parent" : 135
+			},
+			{
+				"file" : 31
+			},
+			{
+				"command" : 2,
+				"file" : 31,
+				"line" : 32,
+				"parent" : 137
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 288,
+				"parent" : 138
+			},
+			{
+				"file" : 32
+			},
+			{
+				"command" : 2,
+				"file" : 32,
+				"line" : 45,
+				"parent" : 140
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 288,
+				"parent" : 141
+			},
+			{
+				"file" : 33
+			},
+			{
+				"command" : 2,
+				"file" : 33,
+				"line" : 23,
+				"parent" : 143
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 288,
+				"parent" : 144
+			},
+			{
+				"command" : 2,
+				"file" : 13,
+				"line" : 34,
+				"parent" : 73
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 288,
+				"parent" : 146
+			},
+			{
+				"command" : 2,
+				"file" : 13,
+				"line" : 29,
+				"parent" : 73
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 288,
+				"parent" : 148
+			},
+			{
+				"command" : 2,
+				"file" : 13,
+				"line" : 39,
+				"parent" : 73
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 288,
+				"parent" : 150
+			},
+			{
+				"file" : 34
+			},
+			{
+				"command" : 2,
+				"file" : 34,
+				"line" : 23,
+				"parent" : 152
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 288,
+				"parent" : 153
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 121,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 288,
+				"parent" : 155
+			},
+			{
+				"command" : 2,
+				"file" : 33,
+				"line" : 28,
+				"parent" : 143
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 288,
+				"parent" : 157
+			},
+			{
+				"file" : 35
+			},
+			{
+				"command" : 2,
+				"file" : 35,
+				"line" : 29,
+				"parent" : 159
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 288,
+				"parent" : 160
+			},
+			{
+				"command" : 2,
+				"file" : 14,
+				"line" : 26,
+				"parent" : 80
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 288,
+				"parent" : 162
+			},
+			{
+				"command" : 2,
+				"file" : 12,
+				"line" : 39,
+				"parent" : 52
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 288,
+				"parent" : 164
+			},
+			{
+				"file" : 36
+			},
+			{
+				"command" : 2,
+				"file" : 36,
+				"line" : 23,
+				"parent" : 166
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 288,
+				"parent" : 167
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 79,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 288,
+				"parent" : 169
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 127,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 288,
+				"parent" : 171
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 163,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 288,
+				"parent" : 173
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 103,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 288,
+				"parent" : 175
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 73,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 288,
+				"parent" : 177
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 4,
+			"id" : "test_sql_lock::@e595f519e2adfbd13092"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "test_session_in_thd::@e595f519e2adfbd13092"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "test_sql_stmt::@e595f519e2adfbd13092"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "test_x_sessions_deinit::@e595f519e2adfbd13092"
+		},
+		{
+			"backtrace" : 13,
+			"id" : "test_services_host_application_signal::@412832937763323c9d23"
+		},
+		{
+			"backtrace" : 15,
+			"id" : "test_services::@412832937763323c9d23"
+		},
+		{
+			"backtrace" : 17,
+			"id" : "test_services_thread::@412832937763323c9d23"
+		},
+		{
+			"backtrace" : 19,
+			"id" : "test_services_plugin_registry::@412832937763323c9d23"
+		},
+		{
+			"backtrace" : 21,
+			"id" : "test_framework::@412832937763323c9d23"
+		},
+		{
+			"backtrace" : 24,
+			"id" : "keyring_udf::@492e79483ebc87997cd7"
+		},
+		{
+			"backtrace" : 26,
+			"id" : "test_sql_replication::@e595f519e2adfbd13092"
+		},
+		{
+			"backtrace" : 28,
+			"id" : "test_session_detach::@e595f519e2adfbd13092"
+		},
+		{
+			"backtrace" : 31,
+			"id" : "connection_control::@bc31871660e2cb639c5d"
+		},
+		{
+			"backtrace" : 34,
+			"id" : "test_udf_services::@c941bafeaf68f65909f8"
+		},
+		{
+			"backtrace" : 37,
+			"id" : "version_token::@30db872064b0c679f065"
+		},
+		{
+			"backtrace" : 40,
+			"id" : "mysqlx::@7cfd4152fef9b0f2a0b9"
+		},
+		{
+			"backtrace" : 43,
+			"id" : "locking_service::@e985624cb5cf1aba6ab1"
+		},
+		{
+			"backtrace" : 45,
+			"id" : "udf_example::@e985624cb5cf1aba6ab1"
+		},
+		{
+			"backtrace" : 48,
+			"id" : "archive::@2e44bbdae2afc01b0e4e"
+		},
+		{
+			"backtrace" : 51,
+			"id" : "rewriter::@e4bc5a548106914cc64f"
+		},
+		{
+			"backtrace" : 54,
+			"id" : "semisync_slave::@4929b039a5dc64b6eb12"
+		},
+		{
+			"backtrace" : 56,
+			"id" : "semisync_master::@4929b039a5dc64b6eb12"
+		},
+		{
+			"backtrace" : 58,
+			"id" : "semisync_source::@4929b039a5dc64b6eb12"
+		},
+		{
+			"backtrace" : 60,
+			"id" : "test_sql_stored_procedures_functions::@e595f519e2adfbd13092"
+		},
+		{
+			"backtrace" : 62,
+			"id" : "test_sql_sqlmode::@e595f519e2adfbd13092"
+		},
+		{
+			"backtrace" : 64,
+			"id" : "test_sql_processlist::@e595f519e2adfbd13092"
+		},
+		{
+			"backtrace" : 66,
+			"id" : "test_sql_sleep_is_connected::@e595f519e2adfbd13092"
+		},
+		{
+			"backtrace" : 68,
+			"id" : "test_sql_2_sessions::@e595f519e2adfbd13092"
+		},
+		{
+			"backtrace" : 70,
+			"id" : "test_x_sessions_init::@e595f519e2adfbd13092"
+		},
+		{
+			"backtrace" : 72,
+			"id" : "test_session_info::@e595f519e2adfbd13092"
+		},
+		{
+			"backtrace" : 75,
+			"id" : "auth::@30dff829e8d5e8a1e669"
+		},
+		{
+			"backtrace" : 77,
+			"id" : "mysql_no_login::@30dff829e8d5e8a1e669"
+		},
+		{
+			"backtrace" : 79,
+			"id" : "qa_auth_client::@30dff829e8d5e8a1e669"
+		},
+		{
+			"backtrace" : 82,
+			"id" : "ngram_parser::@5cea746ce5de5d66e1e7"
+		},
+		{
+			"backtrace" : 85,
+			"id" : "group_replication::@b3c0bd3bd661b2f6c124"
+		},
+		{
+			"backtrace" : 88,
+			"id" : "pfs_example_plugin_employee::@34a785dc9162637e6d2e"
+		},
+		{
+			"backtrace" : 91,
+			"id" : "csv::@2d8bab0368e1620dc542"
+		},
+		{
+			"backtrace" : 94,
+			"id" : "blackhole::@cbff55daf8a1ba3118e0"
+		},
+		{
+			"backtrace" : 97,
+			"id" : "daemon_example::@4b29463cd026a5510fc3"
+		},
+		{
+			"backtrace" : 100,
+			"id" : "ddl_rewriter::@30f638432b660b4c0b51"
+		},
+		{
+			"backtrace" : 103,
+			"id" : "keyring_file::@adfc3780cd036138c7d7"
+		},
+		{
+			"backtrace" : 105,
+			"id" : "test_session_attach::@e595f519e2adfbd13092"
+		},
+		{
+			"backtrace" : 108,
+			"id" : "replication_observers_example::@f0c6554770a7da813667"
+		},
+		{
+			"backtrace" : 111,
+			"id" : "rewrite_example::@2f43fa775b9bbb4a4433"
+		},
+		{
+			"backtrace" : 113,
+			"id" : "test_sql_errors::@e595f519e2adfbd13092"
+		},
+		{
+			"backtrace" : 115,
+			"id" : "test_sql_cmds_1::@e595f519e2adfbd13092"
+		},
+		{
+			"backtrace" : 118,
+			"id" : "example::@2d045fde9aab95842df1"
+		},
+		{
+			"backtrace" : 121,
+			"id" : "federated::@b132bc03dee175d33813"
+		},
+		{
+			"backtrace" : 124,
+			"id" : "heap::@bb54266284e84a722211"
+		},
+		{
+			"backtrace" : 127,
+			"id" : "innobase::@8123eafe19b66234b7de"
+		},
+		{
+			"backtrace" : 130,
+			"id" : "myisam::@a51e6dff989a3e96f0ee"
+		},
+		{
+			"backtrace" : 133,
+			"id" : "myisammrg::@efff744f1108af639037"
+		},
+		{
+			"backtrace" : 136,
+			"id" : "perfschema::@7a73c12e406e924f5617"
+		},
+		{
+			"backtrace" : 139,
+			"id" : "mock::@1237fb39975b8ecf2699"
+		},
+		{
+			"backtrace" : 142,
+			"id" : "temptable::@4b138bdd1d62f50b8d8b"
+		},
+		{
+			"backtrace" : 145,
+			"id" : "audit_null::@c34071285110d5fbf9c9"
+		},
+		{
+			"backtrace" : 147,
+			"id" : "qa_auth_interface::@30dff829e8d5e8a1e669"
+		},
+		{
+			"backtrace" : 149,
+			"id" : "auth_test_plugin::@30dff829e8d5e8a1e669"
+		},
+		{
+			"backtrace" : 151,
+			"id" : "qa_auth_server::@30dff829e8d5e8a1e669"
+		},
+		{
+			"backtrace" : 154,
+			"id" : "validate_password::@dd96855c27f1ee679834"
+		},
+		{
+			"backtrace" : 156,
+			"id" : "test_sql_views_triggers::@e595f519e2adfbd13092"
+		},
+		{
+			"backtrace" : 158,
+			"id" : "test_security_context::@c34071285110d5fbf9c9"
+		},
+		{
+			"backtrace" : 161,
+			"id" : "clone::@0bf955eb37e65c838e15"
+		},
+		{
+			"backtrace" : 163,
+			"id" : "ftexample::@5cea746ce5de5d66e1e7"
+		},
+		{
+			"backtrace" : 165,
+			"id" : "semisync_replica::@4929b039a5dc64b6eb12"
+		},
+		{
+			"backtrace" : 168,
+			"id" : "conflicting_variables::@3280f941c41565e93dd3"
+		},
+		{
+			"backtrace" : 170,
+			"id" : "test_sql_all_col_types::@e595f519e2adfbd13092"
+		},
+		{
+			"backtrace" : 172,
+			"id" : "test_sql_commit::@e595f519e2adfbd13092"
+		},
+		{
+			"backtrace" : 174,
+			"id" : "test_sql_reset_connection::@e595f519e2adfbd13092"
+		},
+		{
+			"backtrace" : 176,
+			"id" : "test_sql_shutdown::@e595f519e2adfbd13092"
+		},
+		{
+			"backtrace" : 178,
+			"id" : "test_sql_complex::@e595f519e2adfbd13092"
+		}
+	],
+	"id" : "plugin_all::@6890427a1f51a3e7e1df",
+	"name" : "plugin_all",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

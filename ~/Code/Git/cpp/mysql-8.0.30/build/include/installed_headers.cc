@@ -1,0 +1,15 @@
+#include "errmsg.h"
+#include "my_command.h"
+#include "my_compress.h"
+#include "my_list.h"
+#include "mysql.h"
+#include "mysql_com.h"
+#include "mysql_time.h"
+#include "/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/include/mysql_version.h"
+#include "/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/include/mysqld_error.h"
+#include "field_types.h"
+#include "mysql/client_plugin.h"
+#include "mysql/plugin_auth_common.h"
+#include "mysql/udf_registration_types.h"
+int main(int, char **) { return 0; }
+

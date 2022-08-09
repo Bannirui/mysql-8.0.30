@@ -1,0 +1,1 @@
+cd /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build && '/Applications/CLion.app/Contents/bin/cmake/mac/bin/cpack' -G TGZ --config CPackConfig.cmake

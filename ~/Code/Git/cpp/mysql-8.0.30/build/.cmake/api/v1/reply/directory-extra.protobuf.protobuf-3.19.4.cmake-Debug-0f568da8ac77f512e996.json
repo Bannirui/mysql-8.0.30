@@ -1,0 +1,160 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"INSTALL",
+			"INSTALL_PRIVATE_LIBRARY",
+			"include"
+		],
+		"files" : 
+		[
+			"cmake/install_macros.cmake",
+			"extra/protobuf/protobuf-3.19.4/cmake/libprotobuf-lite.cmake",
+			"extra/protobuf/protobuf-3.19.4/cmake/CMakeLists.txt",
+			"extra/protobuf/protobuf-3.19.4/cmake/libprotobuf.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 276,
+				"parent" : 0
+			},
+			{
+				"file" : 1,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 150,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 299,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 154,
+				"parent" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 277,
+				"parent" : 0
+			},
+			{
+				"file" : 3,
+				"parent" : 6
+			},
+			{
+				"command" : 1,
+				"file" : 3,
+				"line" : 165,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 299,
+				"parent" : 8
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 4,
+			"component" : "SharedLibraries",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"library_output_directory/libprotobuf-lite.3.19.4.dylib"
+			],
+			"targetId" : "libprotobuf-lite::@ae262fda5401c4b9683d",
+			"targetIndex" : 352,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "SharedLibraries",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"library_output_directory/libprotobuf-lite.dylib"
+			],
+			"targetId" : "libprotobuf-lite::@ae262fda5401c4b9683d",
+			"targetIndex" : 352,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Router",
+			"destination" : "lib/mysqlrouter",
+			"paths" : 
+			[
+				"library_output_directory/libprotobuf-lite.3.19.4.dylib"
+			],
+			"targetId" : "libprotobuf-lite::@ae262fda5401c4b9683d",
+			"targetIndex" : 352,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Router",
+			"destination" : "lib/mysqlrouter",
+			"paths" : 
+			[
+				"library_output_directory/libprotobuf-lite.dylib"
+			],
+			"targetId" : "libprotobuf-lite::@ae262fda5401c4b9683d",
+			"targetIndex" : 352,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "SharedLibraries",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"library_output_directory/libprotobuf.3.19.4.dylib"
+			],
+			"targetId" : "libprotobuf::@ae262fda5401c4b9683d",
+			"targetIndex" : 351,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "SharedLibraries",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"library_output_directory/libprotobuf.dylib"
+			],
+			"targetId" : "libprotobuf::@ae262fda5401c4b9683d",
+			"targetIndex" : 351,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "extra/protobuf/protobuf-3.19.4/cmake",
+		"source" : "extra/protobuf/protobuf-3.19.4/cmake"
+	}
+}

@@ -1,0 +1,352 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "extra/icu/libicustubdata.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"ADD_LIBRARY",
+			"ADD_DEFINITIONS",
+			"MYSQL_CHECK_SSL",
+			"INCLUDE",
+			"INCLUDE_DIRECTORIES",
+			"TARGET_INCLUDE_DIRECTORIES",
+			"MYSQL_USE_BUNDLED_LZ4",
+			"MYSQL_CHECK_LZ4",
+			"MYSQL_USE_BUNDLED_EDITLINE",
+			"MYSQL_CHECK_EDITLINE",
+			"MYSQL_USE_BUNDLED_ZSTD",
+			"MYSQL_CHECK_ZSTD",
+			"MYSQL_USE_BUNDLED_ZLIB",
+			"MYSQL_CHECK_ZLIB"
+		],
+		"files" : 
+		[
+			"extra/icu/CMakeLists.txt",
+			"CMakeLists.txt",
+			"cmake/ssl.cmake",
+			"cmake/rapidjson.cmake",
+			"cmake/lz4.cmake",
+			"cmake/readline.cmake",
+			"cmake/zstd.cmake",
+			"cmake/zlib.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 598,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 1566,
+				"parent" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 1768,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 2,
+				"line" : 384,
+				"parent" : 4
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 1570,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 786,
+				"parent" : 2
+			},
+			{
+				"file" : 3,
+				"parent" : 7
+			},
+			{
+				"command" : 1,
+				"file" : 3,
+				"line" : 125,
+				"parent" : 8
+			},
+			{
+				"command" : 1,
+				"file" : 3,
+				"line" : 126,
+				"parent" : 8
+			},
+			{
+				"command" : 1,
+				"file" : 3,
+				"line" : 127,
+				"parent" : 8
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 1569,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 1568,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 1567,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 1578,
+				"parent" : 2
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 600,
+				"parent" : 0
+			},
+			{
+				"command" : 7,
+				"file" : 1,
+				"line" : 1894,
+				"parent" : 2
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 79,
+				"parent" : 17
+			},
+			{
+				"command" : 4,
+				"file" : 4,
+				"line" : 62,
+				"parent" : 18
+			},
+			{
+				"command" : 9,
+				"file" : 1,
+				"line" : 1872,
+				"parent" : 2
+			},
+			{
+				"command" : 8,
+				"file" : 5,
+				"line" : 220,
+				"parent" : 20
+			},
+			{
+				"command" : 4,
+				"file" : 5,
+				"line" : 124,
+				"parent" : 21
+			},
+			{
+				"command" : 11,
+				"file" : 1,
+				"line" : 1742,
+				"parent" : 2
+			},
+			{
+				"command" : 10,
+				"file" : 6,
+				"line" : 84,
+				"parent" : 23
+			},
+			{
+				"command" : 4,
+				"file" : 6,
+				"line" : 74,
+				"parent" : 24
+			},
+			{
+				"command" : 13,
+				"file" : 1,
+				"line" : 1739,
+				"parent" : 2
+			},
+			{
+				"command" : 12,
+				"file" : 7,
+				"line" : 124,
+				"parent" : 26
+			},
+			{
+				"command" : 4,
+				"file" : 7,
+				"line" : 98,
+				"parent" : 27
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 477,
+				"parent" : 4
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-std=c++17 -fno-omit-frame-pointer -ftls-model=initial-exec  -DSAFE_MUTEX -DENABLED_DEBUG_SYNC -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -fPIC"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 3,
+					"define" : "HAVE_CONFIG_H"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "HAVE_TLSv13"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "LZ4_DISABLE_DEPRECATE_WARNINGS"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "RAPIDJSON_NO_SIZETYPEDEFINE"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "RAPIDJSON_SCHEMA_USE_INTERNALREGEX=0"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "RAPIDJSON_SCHEMA_USE_STDREGEX=1"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "_USE_MATH_DEFINES"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "__STDC_FORMAT_MACROS"
+				},
+				{
+					"backtrace" : 14,
+					"define" : "__STDC_LIMIT_MACROS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 15,
+					"path" : "/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/include"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/Users/dingrui/Code/Git/cpp/mysql-8.0.30"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/Users/dingrui/Code/Git/cpp/mysql-8.0.30/include"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/Users/dingrui/Code/Git/cpp/mysql-8.0.30/extra/icu/icu-release-69-1/source/common"
+				},
+				{
+					"backtrace" : 19,
+					"isSystem" : true,
+					"path" : "/Users/dingrui/Code/Git/cpp/mysql-8.0.30/extra/lz4/lz4-1.9.3"
+				},
+				{
+					"backtrace" : 22,
+					"isSystem" : true,
+					"path" : "/Users/dingrui/Code/Git/cpp/mysql-8.0.30/extra/libedit/libedit-20210910-3.1/src/editline"
+				},
+				{
+					"backtrace" : 25,
+					"isSystem" : true,
+					"path" : "/Users/dingrui/Code/Git/cpp/mysql-8.0.30/extra/zstd/zstd-1.5.0/lib"
+				},
+				{
+					"backtrace" : 28,
+					"isSystem" : true,
+					"path" : "/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/extra/zlib/zlib-1.2.12"
+				},
+				{
+					"backtrace" : 28,
+					"isSystem" : true,
+					"path" : "/Users/dingrui/Code/Git/cpp/mysql-8.0.30/extra/zlib/zlib-1.2.12"
+				},
+				{
+					"backtrace" : 29,
+					"isSystem" : true,
+					"path" : "/usr/local/opt/openssl@1.1/include"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"id" : "icustubdata::@6e75970fb27ac7032658",
+	"name" : "icustubdata",
+	"nameOnDisk" : "libicustubdata.a",
+	"paths" : 
+	{
+		"build" : "extra/icu",
+		"source" : "extra/icu"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "extra/icu/icu-release-69-1/source/stubdata/stubdata.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

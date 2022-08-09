@@ -1,0 +1,84 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"INSTALL"
+		],
+		"files" : 
+		[
+			"router/src/harness/src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 213,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 243,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 284,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Router",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"library_output_directory/libmysqlharness.1.dylib"
+			],
+			"targetId" : "harness-library::@27553637d7cd8e81ae3b",
+			"targetIndex" : 270,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Router",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"library_output_directory/libmysqlharness_stdx.1.dylib"
+			],
+			"targetId" : "harness_stdx::@27553637d7cd8e81ae3b",
+			"targetIndex" : 272,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Router",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"library_output_directory/libmysqlharness_tls.1.dylib"
+			],
+			"targetId" : "harness_tls::@27553637d7cd8e81ae3b",
+			"targetIndex" : 273,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "router/src/harness/src",
+		"source" : "router/src/harness/src"
+	}
+}

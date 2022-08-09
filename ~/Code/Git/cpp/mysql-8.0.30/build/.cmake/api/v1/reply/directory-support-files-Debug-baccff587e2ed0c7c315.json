@@ -1,0 +1,121 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"INSTALL",
+			"INSTALL_SCRIPT"
+		],
+		"files" : 
+		[
+			"support-files/CMakeLists.txt",
+			"cmake/install_macros.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 27,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 51,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 80,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 56,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 80,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 62,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 74,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Development",
+			"destination" : "share/aclocal",
+			"paths" : 
+			[
+				"support-files/mysql.m4"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Server_Scripts",
+			"destination" : "support-files",
+			"paths" : 
+			[
+				"~/Code/Git/cpp/mysql-8.0.30/build/support-files/mysql.server"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Server_Scripts",
+			"destination" : "support-files",
+			"paths" : 
+			[
+				"support-files/mysqld_multi.server"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "Server_Scripts",
+			"destination" : "support-files",
+			"paths" : 
+			[
+				"~/Code/Git/cpp/mysql-8.0.30/build/support-files/mysql-log-rotate"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "Router",
+			"destination" : ".",
+			"paths" : 
+			[
+				"~/Code/Git/cpp/mysql-8.0.30/build/support-files/mysqlrouter-log-rotate"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "support-files",
+		"source" : "support-files"
+	}
+}

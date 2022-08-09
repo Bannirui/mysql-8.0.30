@@ -1,0 +1,81 @@
+{
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"ADD_CUSTOM_TARGET",
+			"MY_ADD_CUSTOM_TARGET"
+		],
+		"files" : 
+		[
+			"cmake/add_custom_target.cmake",
+			"libmysql/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 430,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 61,
+				"parent" : 1
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "libmysql_api_test::@804198ce8b9bd67f3a0d"
+		}
+	],
+	"id" : "run_libmysql_api_test::@804198ce8b9bd67f3a0d",
+	"name" : "run_libmysql_api_test",
+	"paths" : 
+	{
+		"build" : "libmysql",
+		"source" : "libmysql"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "~/Code/Git/cpp/mysql-8.0.30/build/libmysql/CMakeFiles/run_libmysql_api_test",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "~/Code/Git/cpp/mysql-8.0.30/build/libmysql/CMakeFiles/run_libmysql_api_test.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

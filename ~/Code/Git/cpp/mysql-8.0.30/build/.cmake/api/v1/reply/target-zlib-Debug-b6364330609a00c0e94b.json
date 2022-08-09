@@ -1,0 +1,414 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "archive_output_directory/libzlib.a"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"ADD_LIBRARY",
+			"ADD_CONVENIENCE_LIBRARY",
+			"ADD_DEFINITIONS",
+			"INCLUDE",
+			"INCLUDE_DIRECTORIES"
+		],
+		"files" : 
+		[
+			"cmake/libutils.cmake",
+			"extra/zlib/zlib-1.2.12/CMakeLists.txt",
+			"CMakeLists.txt",
+			"cmake/rapidjson.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 189,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 97,
+				"parent" : 1
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 1566,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 1570,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 786,
+				"parent" : 3
+			},
+			{
+				"file" : 3,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 125,
+				"parent" : 7
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 126,
+				"parent" : 7
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 127,
+				"parent" : 7
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 1569,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 1568,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 1567,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 1578,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 101,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-fno-omit-frame-pointer -ftls-model=initial-exec  -DSAFE_MUTEX -DENABLED_DEBUG_SYNC -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -fPIC"
+				},
+				{
+					"fragment" : "-fvisibility=hidden"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 4,
+					"define" : "HAVE_CONFIG_H"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LZ4_DISABLE_DEPRECATE_WARNINGS"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "RAPIDJSON_NO_SIZETYPEDEFINE"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "RAPIDJSON_SCHEMA_USE_INTERNALREGEX=0"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "RAPIDJSON_SCHEMA_USE_STDREGEX=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "_USE_MATH_DEFINES"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "__STDC_FORMAT_MACROS"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "__STDC_LIMIT_MACROS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 14,
+					"path" : "/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/include"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "/Users/dingrui/Code/Git/cpp/mysql-8.0.30"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "/Users/dingrui/Code/Git/cpp/mysql-8.0.30/include"
+				},
+				{
+					"backtrace" : 15,
+					"isSystem" : true,
+					"path" : "/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/extra/zlib/zlib-1.2.12"
+				},
+				{
+					"backtrace" : 15,
+					"isSystem" : true,
+					"path" : "/Users/dingrui/Code/Git/cpp/mysql-8.0.30/extra/zlib/zlib-1.2.12"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14
+			]
+		}
+	],
+	"id" : "zlib::@d2a5661d151ccee8fca1",
+	"name" : "zlib",
+	"nameOnDisk" : "libzlib.a",
+	"paths" : 
+	{
+		"build" : "extra/zlib/zlib-1.2.12",
+		"source" : "extra/zlib/zlib-1.2.12"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "extra/zlib/zlib-1.2.12/adler32.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "extra/zlib/zlib-1.2.12/compress.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "extra/zlib/zlib-1.2.12/crc32.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "extra/zlib/zlib-1.2.12/deflate.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "extra/zlib/zlib-1.2.12/gzclose.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "extra/zlib/zlib-1.2.12/gzlib.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "extra/zlib/zlib-1.2.12/gzread.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "extra/zlib/zlib-1.2.12/gzwrite.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "extra/zlib/zlib-1.2.12/inflate.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "extra/zlib/zlib-1.2.12/infback.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "extra/zlib/zlib-1.2.12/inftrees.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "extra/zlib/zlib-1.2.12/inffast.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "extra/zlib/zlib-1.2.12/trees.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "extra/zlib/zlib-1.2.12/uncompr.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "extra/zlib/zlib-1.2.12/zutil.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "~/Code/Git/cpp/mysql-8.0.30/build/extra/zlib/zlib-1.2.12/zconf.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "extra/zlib/zlib-1.2.12/zlib.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "extra/zlib/zlib-1.2.12/crc32.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "extra/zlib/zlib-1.2.12/deflate.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "extra/zlib/zlib-1.2.12/gzguts.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "extra/zlib/zlib-1.2.12/inffast.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "extra/zlib/zlib-1.2.12/inffixed.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "extra/zlib/zlib-1.2.12/inflate.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "extra/zlib/zlib-1.2.12/inftrees.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "extra/zlib/zlib-1.2.12/trees.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "extra/zlib/zlib-1.2.12/zutil.h",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

@@ -1,0 +1,2499 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /Library/Developer/CommandLineTools/usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+ld: library not found for -lSystem
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /Library/Developer/CommandLineTools/usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+ld: library not found for -lc++
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+
+Performing C SOURCE FILE Test C_LD_GOLD_RESULT failed with the following output:
+Change Dir: /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_204ae && [1/2] Building C object CMakeFiles/cmTC_204ae.dir/src.c.o
+[2/2] Linking C executable cmTC_204ae
+FAILED: cmTC_204ae 
+: && /Library/Developer/CommandLineTools/usr/bin/cc -fno-omit-frame-pointer -ftls-model=initial-exec   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTC_204ae.dir/src.c.o -o cmTC_204ae  -fuse-ld=gold && :
+clang: error: invalid linker name in argument '-fuse-ld=gold'
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main() {}
+Performing C++ SOURCE FILE Test CXX_LD_GOLD_RESULT failed with the following output:
+Change Dir: /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_2367f && [1/2] Building CXX object CMakeFiles/cmTC_2367f.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_2367f
+FAILED: cmTC_2367f 
+: && /Library/Developer/CommandLineTools/usr/bin/c++ -std=c++17 -fno-omit-frame-pointer -ftls-model=initial-exec   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTC_2367f.dir/src.cxx.o -o cmTC_2367f  -fuse-ld=gold && :
+clang: error: invalid linker name in argument '-fuse-ld=gold'
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main() {}
+Determining if the function gethostbyname_r exists failed with the following output:
+Change Dir: /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_4feb1 && [1/2] Building C object CMakeFiles/cmTC_4feb1.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_4feb1
+FAILED: cmTC_4feb1 
+: && /Library/Developer/CommandLineTools/usr/bin/cc -fno-omit-frame-pointer -ftls-model=initial-exec  -DCHECK_FUNCTION_EXISTS=gethostbyname_r -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTC_4feb1.dir/CheckFunctionExists.c.o -o cmTC_4feb1   && :
+Undefined symbols for architecture x86_64:
+  "_gethostbyname_r", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the function gethostbyname_r exists in the nsl_r failed with the following output:
+Change Dir: /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_adb23 && [1/2] Building C object CMakeFiles/cmTC_adb23.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_adb23
+FAILED: cmTC_adb23 
+: && /Library/Developer/CommandLineTools/usr/bin/cc -fno-omit-frame-pointer -ftls-model=initial-exec  -DCHECK_FUNCTION_EXISTS=gethostbyname_r -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTC_adb23.dir/CheckFunctionExists.c.o -o cmTC_adb23  -lnsl_r && :
+ld: library not found for -lnsl_r
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the function gethostbyname_r exists in the nsl failed with the following output:
+Change Dir: /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_c6831 && [1/2] Building C object CMakeFiles/cmTC_c6831.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_c6831
+FAILED: cmTC_c6831 
+: && /Library/Developer/CommandLineTools/usr/bin/cc -fno-omit-frame-pointer -ftls-model=initial-exec  -DCHECK_FUNCTION_EXISTS=gethostbyname_r -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTC_c6831.dir/CheckFunctionExists.c.o -o cmTC_c6831  -lnsl && :
+ld: library not found for -lnsl
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /Library/Developer/CommandLineTools/usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+ld: library not found for -lSystem
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /Library/Developer/CommandLineTools/usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+ld: library not found for -lc++
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+
+Performing C SOURCE FILE Test C_LD_GOLD_RESULT failed with the following output:
+Change Dir: /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_b0018 && [1/2] Building C object CMakeFiles/cmTC_b0018.dir/src.c.o
+[2/2] Linking C executable cmTC_b0018
+FAILED: cmTC_b0018 
+: && /Library/Developer/CommandLineTools/usr/bin/cc -fno-omit-frame-pointer -ftls-model=initial-exec   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTC_b0018.dir/src.c.o -o cmTC_b0018  -fuse-ld=gold && :
+clang: error: invalid linker name in argument '-fuse-ld=gold'
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main() {}
+Performing C++ SOURCE FILE Test CXX_LD_GOLD_RESULT failed with the following output:
+Change Dir: /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_c7d1c && [1/2] Building CXX object CMakeFiles/cmTC_c7d1c.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_c7d1c
+FAILED: cmTC_c7d1c 
+: && /Library/Developer/CommandLineTools/usr/bin/c++ -std=c++17 -fno-omit-frame-pointer -ftls-model=initial-exec   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTC_c7d1c.dir/src.cxx.o -o cmTC_c7d1c  -fuse-ld=gold && :
+clang: error: invalid linker name in argument '-fuse-ld=gold'
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main() {}
+Determining if the function gethostbyname_r exists failed with the following output:
+Change Dir: /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_d7cf3 && [1/2] Building C object CMakeFiles/cmTC_d7cf3.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_d7cf3
+FAILED: cmTC_d7cf3 
+: && /Library/Developer/CommandLineTools/usr/bin/cc -fno-omit-frame-pointer -ftls-model=initial-exec  -DCHECK_FUNCTION_EXISTS=gethostbyname_r -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTC_d7cf3.dir/CheckFunctionExists.c.o -o cmTC_d7cf3   && :
+Undefined symbols for architecture x86_64:
+  "_gethostbyname_r", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the function gethostbyname_r exists in the nsl_r failed with the following output:
+Change Dir: /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_a3e67 && [1/2] Building C object CMakeFiles/cmTC_a3e67.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_a3e67
+FAILED: cmTC_a3e67 
+: && /Library/Developer/CommandLineTools/usr/bin/cc -fno-omit-frame-pointer -ftls-model=initial-exec  -DCHECK_FUNCTION_EXISTS=gethostbyname_r -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTC_a3e67.dir/CheckFunctionExists.c.o -o cmTC_a3e67  -lnsl_r && :
+ld: library not found for -lnsl_r
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the function gethostbyname_r exists in the nsl failed with the following output:
+Change Dir: /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_a024f && [1/2] Building C object CMakeFiles/cmTC_a024f.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_a024f
+FAILED: cmTC_a024f 
+: && /Library/Developer/CommandLineTools/usr/bin/cc -fno-omit-frame-pointer -ftls-model=initial-exec  -DCHECK_FUNCTION_EXISTS=gethostbyname_r -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTC_a024f.dir/CheckFunctionExists.c.o -o cmTC_a024f  -lnsl && :
+ld: library not found for -lnsl
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the function timer_create exists failed with the following output:
+Change Dir: /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_4ed2f && [1/2] Building C object CMakeFiles/cmTC_4ed2f.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_4ed2f
+FAILED: cmTC_4ed2f 
+: && /Library/Developer/CommandLineTools/usr/bin/cc -fno-omit-frame-pointer -ftls-model=initial-exec  -DCHECK_FUNCTION_EXISTS=timer_create -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTC_4ed2f.dir/CheckFunctionExists.c.o -o cmTC_4ed2f   && :
+Undefined symbols for architecture x86_64:
+  "_timer_create", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the function timer_create exists in the rt failed with the following output:
+Change Dir: /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_5d441 && [1/2] Building C object CMakeFiles/cmTC_5d441.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_5d441
+FAILED: cmTC_5d441 
+: && /Library/Developer/CommandLineTools/usr/bin/cc -fno-omit-frame-pointer -ftls-model=initial-exec  -DCHECK_FUNCTION_EXISTS=timer_create -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTC_5d441.dir/CheckFunctionExists.c.o -o cmTC_5d441  -lrt && :
+ld: library not found for -lrt
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if files endian.h exist failed with the following output:
+Change Dir: /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_c0444 && [1/2] Building C object CMakeFiles/cmTC_c0444.dir/HAVE_ENDIAN_H.c.o
+FAILED: CMakeFiles/cmTC_c0444.dir/HAVE_ENDIAN_H.c.o 
+/Library/Developer/CommandLineTools/usr/bin/cc   -fno-omit-frame-pointer -ftls-model=initial-exec   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -fPIE -MD -MT CMakeFiles/cmTC_c0444.dir/HAVE_ENDIAN_H.c.o -MF CMakeFiles/cmTC_c0444.dir/HAVE_ENDIAN_H.c.o.d -o CMakeFiles/cmTC_c0444.dir/HAVE_ENDIAN_H.c.o -c '/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CheckIncludeFiles/HAVE_ENDIAN_H.c'
+/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CheckIncludeFiles/HAVE_ENDIAN_H.c:2:10: fatal error: 'endian.h' file not found
+#include <endian.h>
+         ^~~~~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+Source:
+/* */
+#include <endian.h>
+
+
+int main(void){return 0;}
+
+Determining if files fpu_control.h exist failed with the following output:
+Change Dir: /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_a8dfe && [1/2] Building C object CMakeFiles/cmTC_a8dfe.dir/HAVE_FPU_CONTROL_H.c.o
+FAILED: CMakeFiles/cmTC_a8dfe.dir/HAVE_FPU_CONTROL_H.c.o 
+/Library/Developer/CommandLineTools/usr/bin/cc   -fno-omit-frame-pointer -ftls-model=initial-exec   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -fPIE -MD -MT CMakeFiles/cmTC_a8dfe.dir/HAVE_FPU_CONTROL_H.c.o -MF CMakeFiles/cmTC_a8dfe.dir/HAVE_FPU_CONTROL_H.c.o.d -o CMakeFiles/cmTC_a8dfe.dir/HAVE_FPU_CONTROL_H.c.o -c '/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CheckIncludeFiles/HAVE_FPU_CONTROL_H.c'
+/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CheckIncludeFiles/HAVE_FPU_CONTROL_H.c:2:10: fatal error: 'fpu_control.h' file not found
+#include <fpu_control.h>
+         ^~~~~~~~~~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+Source:
+/* */
+#include <fpu_control.h>
+
+
+int main(void){return 0;}
+
+Determining if files malloc.h exist failed with the following output:
+Change Dir: /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_cc5eb && [1/2] Building C object CMakeFiles/cmTC_cc5eb.dir/HAVE_MALLOC_H.c.o
+FAILED: CMakeFiles/cmTC_cc5eb.dir/HAVE_MALLOC_H.c.o 
+/Library/Developer/CommandLineTools/usr/bin/cc   -fno-omit-frame-pointer -ftls-model=initial-exec   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -fPIE -MD -MT CMakeFiles/cmTC_cc5eb.dir/HAVE_MALLOC_H.c.o -MF CMakeFiles/cmTC_cc5eb.dir/HAVE_MALLOC_H.c.o.d -o CMakeFiles/cmTC_cc5eb.dir/HAVE_MALLOC_H.c.o -c '/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CheckIncludeFiles/HAVE_MALLOC_H.c'
+/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CheckIncludeFiles/HAVE_MALLOC_H.c:2:10: fatal error: 'malloc.h' file not found
+#include <malloc.h>
+         ^~~~~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+Source:
+/* */
+#include <malloc.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/prctl.h exist failed with the following output:
+Change Dir: /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_b6680 && [1/2] Building C object CMakeFiles/cmTC_b6680.dir/HAVE_SYS_PRCTL_H.c.o
+FAILED: CMakeFiles/cmTC_b6680.dir/HAVE_SYS_PRCTL_H.c.o 
+/Library/Developer/CommandLineTools/usr/bin/cc   -fno-omit-frame-pointer -ftls-model=initial-exec   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -fPIE -MD -MT CMakeFiles/cmTC_b6680.dir/HAVE_SYS_PRCTL_H.c.o -MF CMakeFiles/cmTC_b6680.dir/HAVE_SYS_PRCTL_H.c.o.d -o CMakeFiles/cmTC_b6680.dir/HAVE_SYS_PRCTL_H.c.o -c '/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CheckIncludeFiles/HAVE_SYS_PRCTL_H.c'
+/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CheckIncludeFiles/HAVE_SYS_PRCTL_H.c:2:10: fatal error: 'sys/prctl.h' file not found
+#include <sys/prctl.h>
+         ^~~~~~~~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+Source:
+/* */
+#include <sys/prctl.h>
+
+
+int main(void){return 0;}
+
+Determining if files termio.h exist failed with the following output:
+Change Dir: /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_07498 && [1/2] Building C object CMakeFiles/cmTC_07498.dir/HAVE_TERMIO_H.c.o
+FAILED: CMakeFiles/cmTC_07498.dir/HAVE_TERMIO_H.c.o 
+/Library/Developer/CommandLineTools/usr/bin/cc   -fno-omit-frame-pointer -ftls-model=initial-exec   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -fPIE -MD -MT CMakeFiles/cmTC_07498.dir/HAVE_TERMIO_H.c.o -MF CMakeFiles/cmTC_07498.dir/HAVE_TERMIO_H.c.o.d -o CMakeFiles/cmTC_07498.dir/HAVE_TERMIO_H.c.o -c '/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CheckIncludeFiles/HAVE_TERMIO_H.c'
+/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CheckIncludeFiles/HAVE_TERMIO_H.c:2:10: fatal error: 'termio.h' file not found
+#include <termio.h>
+         ^~~~~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+Source:
+/* */
+#include <termio.h>
+
+
+int main(void){return 0;}
+
+Determining if the function _aligned_malloc exists failed with the following output:
+Change Dir: /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_9d7e6 && [1/2] Building C object CMakeFiles/cmTC_9d7e6.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_9d7e6
+FAILED: cmTC_9d7e6 
+: && /Library/Developer/CommandLineTools/usr/bin/cc -fno-omit-frame-pointer -ftls-model=initial-exec  -DCHECK_FUNCTION_EXISTS=_aligned_malloc -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTC_9d7e6.dir/CheckFunctionExists.c.o -o cmTC_9d7e6   && :
+Undefined symbols for architecture x86_64:
+  "__aligned_malloc", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the function cuserid exists failed with the following output:
+Change Dir: /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_da3fd && [1/2] Building C object CMakeFiles/cmTC_da3fd.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_da3fd
+FAILED: cmTC_da3fd 
+: && /Library/Developer/CommandLineTools/usr/bin/cc -fno-omit-frame-pointer -ftls-model=initial-exec  -DCHECK_FUNCTION_EXISTS=cuserid -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTC_da3fd.dir/CheckFunctionExists.c.o -o cmTC_da3fd   && :
+Undefined symbols for architecture x86_64:
+  "_cuserid", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the function directio exists failed with the following output:
+Change Dir: /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_2ae92 && [1/2] Building C object CMakeFiles/cmTC_2ae92.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_2ae92
+FAILED: cmTC_2ae92 
+: && /Library/Developer/CommandLineTools/usr/bin/cc -fno-omit-frame-pointer -ftls-model=initial-exec  -DCHECK_FUNCTION_EXISTS=directio -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTC_2ae92.dir/CheckFunctionExists.c.o -o cmTC_2ae92   && :
+Undefined symbols for architecture x86_64:
+  "_directio", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the fdatasync exist failed with the following output:
+Change Dir: /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_b44d8 && [1/2] Building C object CMakeFiles/cmTC_b44d8.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_b44d8.dir/CheckSymbolExists.c.o 
+/Library/Developer/CommandLineTools/usr/bin/cc   -fno-omit-frame-pointer -ftls-model=initial-exec   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -fPIE -MD -MT CMakeFiles/cmTC_b44d8.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_b44d8.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_b44d8.dir/CheckSymbolExists.c.o -c '/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c'
+/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: use of undeclared identifier 'fdatasync'
+  return ((int*)(&fdatasync))[argc];
+                  ^
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+File /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fdatasync
+  return ((int*)(&fdatasync))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the function fedisableexcept exists failed with the following output:
+Change Dir: /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_6b8c3 && [1/2] Building C object CMakeFiles/cmTC_6b8c3.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_6b8c3
+FAILED: cmTC_6b8c3 
+: && /Library/Developer/CommandLineTools/usr/bin/cc -fno-omit-frame-pointer -ftls-model=initial-exec  -DCHECK_FUNCTION_EXISTS=fedisableexcept -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTC_6b8c3.dir/CheckFunctionExists.c.o -o cmTC_6b8c3   && :
+Undefined symbols for architecture x86_64:
+  "_fedisableexcept", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the function gethrtime exists failed with the following output:
+Change Dir: /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_7ffcc && [1/2] Building C object CMakeFiles/cmTC_7ffcc.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_7ffcc
+FAILED: cmTC_7ffcc 
+: && /Library/Developer/CommandLineTools/usr/bin/cc -fno-omit-frame-pointer -ftls-model=initial-exec  -DCHECK_FUNCTION_EXISTS=gethrtime -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTC_7ffcc.dir/CheckFunctionExists.c.o -o cmTC_7ffcc   && :
+Undefined symbols for architecture x86_64:
+  "_gethrtime", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the function getpassphrase exists failed with the following output:
+Change Dir: /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_199f8 && [1/2] Building C object CMakeFiles/cmTC_199f8.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_199f8
+FAILED: cmTC_199f8 
+: && /Library/Developer/CommandLineTools/usr/bin/cc -fno-omit-frame-pointer -ftls-model=initial-exec  -DCHECK_FUNCTION_EXISTS=getpassphrase -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTC_199f8.dir/CheckFunctionExists.c.o -o cmTC_199f8   && :
+Undefined symbols for architecture x86_64:
+  "_getpassphrase", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the function malloc_info exists failed with the following output:
+Change Dir: /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_c3d07 && [1/2] Building C object CMakeFiles/cmTC_c3d07.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_c3d07
+FAILED: cmTC_c3d07 
+: && /Library/Developer/CommandLineTools/usr/bin/cc -fno-omit-frame-pointer -ftls-model=initial-exec  -DCHECK_FUNCTION_EXISTS=malloc_info -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTC_c3d07.dir/CheckFunctionExists.c.o -o cmTC_c3d07   && :
+Undefined symbols for architecture x86_64:
+  "_malloc_info", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the function mmap64 exists failed with the following output:
+Change Dir: /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_add0b && [1/2] Building C object CMakeFiles/cmTC_add0b.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_add0b
+FAILED: cmTC_add0b 
+: && /Library/Developer/CommandLineTools/usr/bin/cc -fno-omit-frame-pointer -ftls-model=initial-exec  -DCHECK_FUNCTION_EXISTS=mmap64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTC_add0b.dir/CheckFunctionExists.c.o -o cmTC_add0b   && :
+Undefined symbols for architecture x86_64:
+  "_mmap64", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the function posix_fallocate exists failed with the following output:
+Change Dir: /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_50832 && [1/2] Building C object CMakeFiles/cmTC_50832.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_50832
+FAILED: cmTC_50832 
+: && /Library/Developer/CommandLineTools/usr/bin/cc -fno-omit-frame-pointer -ftls-model=initial-exec  -DCHECK_FUNCTION_EXISTS=posix_fallocate -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTC_50832.dir/CheckFunctionExists.c.o -o cmTC_50832   && :
+Undefined symbols for architecture x86_64:
+  "_posix_fallocate", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the function pthread_condattr_setclock exists failed with the following output:
+Change Dir: /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_e478f && [1/2] Building C object CMakeFiles/cmTC_e478f.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_e478f
+FAILED: cmTC_e478f 
+: && /Library/Developer/CommandLineTools/usr/bin/cc -fno-omit-frame-pointer -ftls-model=initial-exec  -DCHECK_FUNCTION_EXISTS=pthread_condattr_setclock -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTC_e478f.dir/CheckFunctionExists.c.o -o cmTC_e478f   && :
+Undefined symbols for architecture x86_64:
+  "_pthread_condattr_setclock", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the function pthread_getaffinity_np exists failed with the following output:
+Change Dir: /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_5e3ef && [1/2] Building C object CMakeFiles/cmTC_5e3ef.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_5e3ef
+FAILED: cmTC_5e3ef 
+: && /Library/Developer/CommandLineTools/usr/bin/cc -fno-omit-frame-pointer -ftls-model=initial-exec  -DCHECK_FUNCTION_EXISTS=pthread_getaffinity_np -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTC_5e3ef.dir/CheckFunctionExists.c.o -o cmTC_5e3ef   && :
+Undefined symbols for architecture x86_64:
+  "_pthread_getaffinity_np", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the function tell exists failed with the following output:
+Change Dir: /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_1795e && [1/2] Building C object CMakeFiles/cmTC_1795e.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_1795e
+FAILED: cmTC_1795e 
+: && /Library/Developer/CommandLineTools/usr/bin/cc -fno-omit-frame-pointer -ftls-model=initial-exec  -DCHECK_FUNCTION_EXISTS=tell -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTC_1795e.dir/CheckFunctionExists.c.o -o cmTC_1795e   && :
+Undefined symbols for architecture x86_64:
+  "_tell", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the function memalign exists failed with the following output:
+Change Dir: /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_23a75 && [1/2] Building C object CMakeFiles/cmTC_23a75.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_23a75
+FAILED: cmTC_23a75 
+: && /Library/Developer/CommandLineTools/usr/bin/cc -fno-omit-frame-pointer -ftls-model=initial-exec  -DCHECK_FUNCTION_EXISTS=memalign -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTC_23a75.dir/CheckFunctionExists.c.o -o cmTC_23a75   && :
+Undefined symbols for architecture x86_64:
+  "_memalign", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the function ntohll exists failed with the following output:
+Change Dir: /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_61f4f && [1/2] Building C object CMakeFiles/cmTC_61f4f.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_61f4f
+FAILED: cmTC_61f4f 
+: && /Library/Developer/CommandLineTools/usr/bin/cc -fno-omit-frame-pointer -ftls-model=initial-exec  -DCHECK_FUNCTION_EXISTS=ntohll -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTC_61f4f.dir/CheckFunctionExists.c.o -o cmTC_61f4f   && :
+Undefined symbols for architecture x86_64:
+  "_ntohll", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the function epoll_create exists failed with the following output:
+Change Dir: /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_81ffe && [1/2] Building C object CMakeFiles/cmTC_81ffe.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_81ffe
+FAILED: cmTC_81ffe 
+: && /Library/Developer/CommandLineTools/usr/bin/cc -fno-omit-frame-pointer -ftls-model=initial-exec  -DCHECK_FUNCTION_EXISTS=epoll_create -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTC_81ffe.dir/CheckFunctionExists.c.o -o cmTC_81ffe   && :
+Undefined symbols for architecture x86_64:
+  "_epoll_create", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the MADV_DONTDUMP exist failed with the following output:
+Change Dir: /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_98c77 && [1/2] Building C object CMakeFiles/cmTC_98c77.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_98c77.dir/CheckSymbolExists.c.o 
+/Library/Developer/CommandLineTools/usr/bin/cc   -fno-omit-frame-pointer -ftls-model=initial-exec   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -fPIE -MD -MT CMakeFiles/cmTC_98c77.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_98c77.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_98c77.dir/CheckSymbolExists.c.o -c '/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c'
+/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: use of undeclared identifier 'MADV_DONTDUMP'
+  return ((int*)(&MADV_DONTDUMP))[argc];
+                  ^
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+File /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/mman.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef MADV_DONTDUMP
+  return ((int*)(&MADV_DONTDUMP))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C++ SOURCE FILE Test HAVE_O_TMPFILE failed with the following output:
+Change Dir: /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_8c688 && [1/2] Building CXX object CMakeFiles/cmTC_8c688.dir/src.cxx.o
+FAILED: CMakeFiles/cmTC_8c688.dir/src.cxx.o 
+/Library/Developer/CommandLineTools/usr/bin/c++ -DHAVE_O_TMPFILE  -std=c++17 -fno-omit-frame-pointer -ftls-model=initial-exec   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -fPIE -MD -MT CMakeFiles/cmTC_8c688.dir/src.cxx.o -MF CMakeFiles/cmTC_8c688.dir/src.cxx.o.d -o CMakeFiles/cmTC_8c688.dir/src.cxx.o -c '/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp/src.cxx'
+/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp/src.cxx:5:23: error: use of undeclared identifier 'O_TMPFILE'
+  long long int foo = O_TMPFILE;
+                      ^
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+#include <sys/types.h>
+ #include <sys/stat.h>
+ #include <fcntl.h>
+int main() {
+  long long int foo = O_TMPFILE;
+}
+Determining if the function timer_create exists failed with the following output:
+Change Dir: /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_55ee0 && [1/2] Building C object CMakeFiles/cmTC_55ee0.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_55ee0
+FAILED: cmTC_55ee0 
+: && /Library/Developer/CommandLineTools/usr/bin/cc -fno-omit-frame-pointer -ftls-model=initial-exec  -DCHECK_FUNCTION_EXISTS=timer_create -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTC_55ee0.dir/CheckFunctionExists.c.o -o cmTC_55ee0   && :
+Undefined symbols for architecture x86_64:
+  "_timer_create", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the function timer_settime exists failed with the following output:
+Change Dir: /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_c8b43 && [1/2] Building C object CMakeFiles/cmTC_c8b43.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_c8b43
+FAILED: cmTC_c8b43 
+: && /Library/Developer/CommandLineTools/usr/bin/cc -fno-omit-frame-pointer -ftls-model=initial-exec  -DCHECK_FUNCTION_EXISTS=timer_settime -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTC_c8b43.dir/CheckFunctionExists.c.o -o cmTC_c8b43   && :
+Undefined symbols for architecture x86_64:
+  "_timer_settime", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
+
+Performing C SOURCE FILE Test HAVE_SETNS failed with the following compile output:
+Change Dir: /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_c2e04 && [1/2] Building C object CMakeFiles/cmTC_c2e04.dir/src.c.o
+FAILED: CMakeFiles/cmTC_c2e04.dir/src.c.o 
+/Library/Developer/CommandLineTools/usr/bin/cc -DHAVE_SETNS  -fno-omit-frame-pointer -ftls-model=initial-exec   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -fPIE -MD -MT CMakeFiles/cmTC_c2e04.dir/src.c.o -MF CMakeFiles/cmTC_c2e04.dir/src.c.o.d -o CMakeFiles/cmTC_c2e04.dir/src.c.o -c '/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp/src.c'
+/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp/src.c:8:9: error: implicit declaration of function 'setns' is invalid in C99 [-Werror,-Wimplicit-function-declaration]
+  (void)setns(0, 0);
+        ^
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+...and run output:
+
+Return value: 1
+Source file was:
+
+#ifndef _GNU_SOURCE
+#define _GNU_SOURCE
+#endif
+#include <sched.h>
+int main()
+{
+  (void)setns(0, 0);
+  return 0;
+}
+Determining size of ulong failed with the following output:
+Change Dir: /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_ed945 && [1/2] Building C object CMakeFiles/cmTC_ed945.dir/SIZEOF_ULONG.c.o
+FAILED: CMakeFiles/cmTC_ed945.dir/SIZEOF_ULONG.c.o 
+/Library/Developer/CommandLineTools/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -fno-omit-frame-pointer -ftls-model=initial-exec   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -fPIE -MD -MT CMakeFiles/cmTC_ed945.dir/SIZEOF_ULONG.c.o -MF CMakeFiles/cmTC_ed945.dir/SIZEOF_ULONG.c.o.d -o CMakeFiles/cmTC_ed945.dir/SIZEOF_ULONG.c.o -c '/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CheckTypeSize/SIZEOF_ULONG.c'
+/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CheckTypeSize/SIZEOF_ULONG.c:33:12: error: use of undeclared identifier 'ulong'; did you mean 'long'?
+  ('0' + ((SIZE / 10000)%10)),
+           ^
+/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CheckTypeSize/SIZEOF_ULONG.c:31:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(ulong))
+                     ^
+/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CheckTypeSize/SIZEOF_ULONG.c:33:12: error: reference to overloaded function could not be resolved; did you mean to call it?
+  ('0' + ((SIZE / 10000)%10)),
+           ^~~~
+/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CheckTypeSize/SIZEOF_ULONG.c:31:21: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(ulong))
+                    ^~~~~~~
+/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CheckTypeSize/SIZEOF_ULONG.c:34:12: error: use of undeclared identifier 'ulong'; did you mean 'long'?
+  ('0' + ((SIZE / 1000)%10)),
+           ^
+/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CheckTypeSize/SIZEOF_ULONG.c:31:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(ulong))
+                     ^
+/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CheckTypeSize/SIZEOF_ULONG.c:34:12: error: reference to overloaded function could not be resolved; did you mean to call it?
+  ('0' + ((SIZE / 1000)%10)),
+           ^~~~
+/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CheckTypeSize/SIZEOF_ULONG.c:31:21: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(ulong))
+                    ^~~~~~~
+/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CheckTypeSize/SIZEOF_ULONG.c:35:12: error: use of undeclared identifier 'ulong'; did you mean 'long'?
+  ('0' + ((SIZE / 100)%10)),
+           ^
+/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CheckTypeSize/SIZEOF_ULONG.c:31:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(ulong))
+                     ^
+/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CheckTypeSize/SIZEOF_ULONG.c:35:12: error: reference to overloaded function could not be resolved; did you mean to call it?
+  ('0' + ((SIZE / 100)%10)),
+           ^~~~
+/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CheckTypeSize/SIZEOF_ULONG.c:31:21: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(ulong))
+                    ^~~~~~~
+/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CheckTypeSize/SIZEOF_ULONG.c:36:12: error: use of undeclared identifier 'ulong'; did you mean 'long'?
+  ('0' + ((SIZE / 10)%10)),
+           ^
+/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CheckTypeSize/SIZEOF_ULONG.c:31:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(ulong))
+                     ^
+/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CheckTypeSize/SIZEOF_ULONG.c:36:12: error: reference to overloaded function could not be resolved; did you mean to call it?
+  ('0' + ((SIZE / 10)%10)),
+           ^~~~
+/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CheckTypeSize/SIZEOF_ULONG.c:31:21: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(ulong))
+                    ^~~~~~~
+/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CheckTypeSize/SIZEOF_ULONG.c:37:12: error: use of undeclared identifier 'ulong'; did you mean 'long'?
+  ('0' +  (SIZE    % 10)),
+           ^
+/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CheckTypeSize/SIZEOF_ULONG.c:31:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(ulong))
+                     ^
+/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CheckTypeSize/SIZEOF_ULONG.c:37:12: error: reference to overloaded function could not be resolved; did you mean to call it?
+  ('0' +  (SIZE    % 10)),
+           ^~~~
+/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CheckTypeSize/SIZEOF_ULONG.c:31:21: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(ulong))
+                    ^~~~~~~
+10 errors generated.
+ninja: build stopped: subcommand failed.
+
+
+/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CheckTypeSize/SIZEOF_ULONG.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "stdint.h"
+#include "stdio.h"
+#include "sys/types.h"
+#include "time.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__PPC64__)
+# define KEY '_','_','P','P','C','6','4','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__PPC__)
+# define KEY '_','_','P','P','C','_','_'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(ulong))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the __builtin_stpcpy exist failed with the following output:
+Change Dir: /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_7d93f && [1/2] Building C object CMakeFiles/cmTC_7d93f.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_7d93f.dir/CheckSymbolExists.c.o 
+/Library/Developer/CommandLineTools/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -fno-omit-frame-pointer -ftls-model=initial-exec   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -fPIE -MD -MT CMakeFiles/cmTC_7d93f.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_7d93f.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_7d93f.dir/CheckSymbolExists.c.o -c '/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c'
+/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: builtin functions must be directly called
+  return ((int*)(&__builtin_stpcpy))[argc];
+                  ^
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+File /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef __builtin_stpcpy
+  return ((int*)(&__builtin_stpcpy))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C SOURCE FILE Test HAVE_PTHREAD_GETTHREADID_NP failed with the following output:
+Change Dir: /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_d6c8d && [1/2] Building C object CMakeFiles/cmTC_d6c8d.dir/src.c.o
+FAILED: CMakeFiles/cmTC_d6c8d.dir/src.c.o 
+/Library/Developer/CommandLineTools/usr/bin/cc -DHAVE_PTHREAD_GETTHREADID_NP -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -fno-omit-frame-pointer -ftls-model=initial-exec   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -fPIE -MD -MT CMakeFiles/cmTC_d6c8d.dir/src.c.o -MF CMakeFiles/cmTC_d6c8d.dir/src.c.o.d -o CMakeFiles/cmTC_d6c8d.dir/src.c.o -c '/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp/src.c'
+/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp/src.c:2:10: fatal error: 'pthread_np.h' file not found
+#include <pthread_np.h>
+         ^~~~~~~~~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+
+#include <pthread_np.h>
+int main(int ac, char **av)
+{
+  unsigned long long tid = pthread_getthreadid_np();
+  return (tid != 0 ? 0 : 1);
+}
+Performing C SOURCE FILE Test HAVE_INTEGER_PTHREAD_SELF failed with the following output:
+Change Dir: /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_f553b && [1/2] Building C object CMakeFiles/cmTC_f553b.dir/src.c.o
+/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp/src.c:6:22: warning: incompatible pointer to integer conversion initializing 'unsigned long long' with an expression of type 'pthread_t _Nonnull' (aka 'struct _opaque_pthread_t *') [-Wint-conversion]
+  unsigned long long tid = pthread_self();
+                     ^     ~~~~~~~~~~~~~~
+1 warning generated.
+[2/2] Linking C executable cmTC_f553b
+
+
+Source file was:
+
+#include <sys/types.h>
+#include <pthread.h>
+int main(int ac, char **av)
+{
+  unsigned long long tid = pthread_self();
+  return (tid != 0 ? 0 : 1);
+}
+Performing C SOURCE FILE Test HAVE_PTHREAD_SETNAME_NP_LINUX failed with the following output:
+Change Dir: /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_5d452 && [1/2] Building C object CMakeFiles/cmTC_5d452.dir/src.c.o
+FAILED: CMakeFiles/cmTC_5d452.dir/src.c.o 
+/Library/Developer/CommandLineTools/usr/bin/cc -DHAVE_PTHREAD_SETNAME_NP_LINUX -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -fno-omit-frame-pointer -ftls-model=initial-exec   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -fPIE -MD -MT CMakeFiles/cmTC_5d452.dir/src.c.o -MF CMakeFiles/cmTC_5d452.dir/src.c.o.d -o CMakeFiles/cmTC_5d452.dir/src.c.o -c '/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp/src.c'
+/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp/src.c:2:9: warning: '_GNU_SOURCE' macro redefined [-Wmacro-redefined]
+#define _GNU_SOURCE
+        ^
+<command line>:3:9: note: previous definition is here
+#define _GNU_SOURCE 1
+        ^
+/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp/src.c:8:34: error: too many arguments to function call, expected 1, have 2
+  return pthread_setname_np(tid, name);
+         ~~~~~~~~~~~~~~~~~~      ^~~~
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/pthread.h:510:5: note: 'pthread_setname_np' declared here
+int     pthread_setname_np(const char*);
+        ^
+1 warning and 1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+
+#define _GNU_SOURCE
+#include <pthread.h>
+int main(int argc, char **argv)
+{
+  pthread_t tid = 0;
+  const char *name = NULL;
+  return pthread_setname_np(tid, name);
+}
+Determining if the include file netinet/in6.h exists failed with the following output:
+Change Dir: /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_e2296 && [1/2] Building C object CMakeFiles/cmTC_e2296.dir/CheckIncludeFile.c.o
+FAILED: CMakeFiles/cmTC_e2296.dir/CheckIncludeFile.c.o 
+/Library/Developer/CommandLineTools/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -fno-omit-frame-pointer -ftls-model=initial-exec   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -fPIE -MD -MT CMakeFiles/cmTC_e2296.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_e2296.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_e2296.dir/CheckIncludeFile.c.o -c '/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c'
+/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: 'netinet/in6.h' file not found
+#include <netinet/in6.h>
+         ^~~~~~~~~~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+
+Determining size of struct in6_addr failed with the following output:
+Change Dir: /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_f1c51 && [1/2] Building C object CMakeFiles/cmTC_f1c51.dir/SIZEOF_IN6_ADDR.c.o
+FAILED: CMakeFiles/cmTC_f1c51.dir/SIZEOF_IN6_ADDR.c.o 
+/Library/Developer/CommandLineTools/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -fno-omit-frame-pointer -ftls-model=initial-exec   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -fPIE -MD -MT CMakeFiles/cmTC_f1c51.dir/SIZEOF_IN6_ADDR.c.o -MF CMakeFiles/cmTC_f1c51.dir/SIZEOF_IN6_ADDR.c.o.d -o CMakeFiles/cmTC_f1c51.dir/SIZEOF_IN6_ADDR.c.o -c '/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CheckTypeSize/SIZEOF_IN6_ADDR.c'
+/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CheckTypeSize/SIZEOF_IN6_ADDR.c:33:12: error: invalid application of 'sizeof' to an incomplete type 'struct in6_addr'
+  ('0' + ((SIZE / 10000)%10)),
+           ^~~~
+/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CheckTypeSize/SIZEOF_IN6_ADDR.c:31:15: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(struct in6_addr))
+              ^     ~~~~~~~~~~~~~~~~~
+/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CheckTypeSize/SIZEOF_IN6_ADDR.c:33:12: note: forward declaration of 'struct in6_addr'
+/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CheckTypeSize/SIZEOF_IN6_ADDR.c:31:29: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(struct in6_addr))
+                            ^
+/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CheckTypeSize/SIZEOF_IN6_ADDR.c:34:12: error: invalid application of 'sizeof' to an incomplete type 'struct in6_addr'
+  ('0' + ((SIZE / 1000)%10)),
+           ^~~~
+/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CheckTypeSize/SIZEOF_IN6_ADDR.c:31:15: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(struct in6_addr))
+              ^     ~~~~~~~~~~~~~~~~~
+/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CheckTypeSize/SIZEOF_IN6_ADDR.c:33:12: note: forward declaration of 'struct in6_addr'
+  ('0' + ((SIZE / 10000)%10)),
+           ^
+/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CheckTypeSize/SIZEOF_IN6_ADDR.c:31:29: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(struct in6_addr))
+                            ^
+/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CheckTypeSize/SIZEOF_IN6_ADDR.c:35:12: error: invalid application of 'sizeof' to an incomplete type 'struct in6_addr'
+  ('0' + ((SIZE / 100)%10)),
+           ^~~~
+/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CheckTypeSize/SIZEOF_IN6_ADDR.c:31:15: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(struct in6_addr))
+              ^     ~~~~~~~~~~~~~~~~~
+/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CheckTypeSize/SIZEOF_IN6_ADDR.c:33:12: note: forward declaration of 'struct in6_addr'
+  ('0' + ((SIZE / 10000)%10)),
+           ^
+/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CheckTypeSize/SIZEOF_IN6_ADDR.c:31:29: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(struct in6_addr))
+                            ^
+/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CheckTypeSize/SIZEOF_IN6_ADDR.c:36:12: error: invalid application of 'sizeof' to an incomplete type 'struct in6_addr'
+  ('0' + ((SIZE / 10)%10)),
+           ^~~~
+/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CheckTypeSize/SIZEOF_IN6_ADDR.c:31:15: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(struct in6_addr))
+              ^     ~~~~~~~~~~~~~~~~~
+/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CheckTypeSize/SIZEOF_IN6_ADDR.c:33:12: note: forward declaration of 'struct in6_addr'
+  ('0' + ((SIZE / 10000)%10)),
+           ^
+/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CheckTypeSize/SIZEOF_IN6_ADDR.c:31:29: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(struct in6_addr))
+                            ^
+/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CheckTypeSize/SIZEOF_IN6_ADDR.c:37:12: error: invalid application of 'sizeof' to an incomplete type 'struct in6_addr'
+  ('0' +  (SIZE    % 10)),
+           ^~~~
+/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CheckTypeSize/SIZEOF_IN6_ADDR.c:31:15: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(struct in6_addr))
+              ^     ~~~~~~~~~~~~~~~~~
+/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CheckTypeSize/SIZEOF_IN6_ADDR.c:33:12: note: forward declaration of 'struct in6_addr'
+  ('0' + ((SIZE / 10000)%10)),
+           ^
+/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CheckTypeSize/SIZEOF_IN6_ADDR.c:31:29: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(struct in6_addr))
+                            ^
+5 errors generated.
+ninja: build stopped: subcommand failed.
+
+
+/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CheckTypeSize/SIZEOF_IN6_ADDR.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "stdint.h"
+#include "stdio.h"
+#include "sys/types.h"
+#include "time.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__PPC64__)
+# define KEY '_','_','P','P','C','6','4','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__PPC__)
+# define KEY '_','_','P','P','C','_','_'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(struct in6_addr))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if files numa.h exist failed with the following output:
+Change Dir: /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_94af8 && [1/2] Building C object CMakeFiles/cmTC_94af8.dir/HAVE_NUMA_H.c.o
+FAILED: CMakeFiles/cmTC_94af8.dir/HAVE_NUMA_H.c.o 
+/Library/Developer/CommandLineTools/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -fno-omit-frame-pointer -ftls-model=initial-exec   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -fPIE -MD -MT CMakeFiles/cmTC_94af8.dir/HAVE_NUMA_H.c.o -MF CMakeFiles/cmTC_94af8.dir/HAVE_NUMA_H.c.o.d -o CMakeFiles/cmTC_94af8.dir/HAVE_NUMA_H.c.o -c '/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CheckIncludeFiles/HAVE_NUMA_H.c'
+/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CheckIncludeFiles/HAVE_NUMA_H.c:2:10: fatal error: 'numa.h' file not found
+#include <numa.h>
+         ^~~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+Source:
+/* */
+#include <numa.h>
+
+
+int main(void){return 0;}
+
+Determining if files numaif.h exist failed with the following output:
+Change Dir: /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_7e1b6 && [1/2] Building C object CMakeFiles/cmTC_7e1b6.dir/HAVE_NUMAIF_H.c.o
+FAILED: CMakeFiles/cmTC_7e1b6.dir/HAVE_NUMAIF_H.c.o 
+/Library/Developer/CommandLineTools/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -fno-omit-frame-pointer -ftls-model=initial-exec   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -fPIE -MD -MT CMakeFiles/cmTC_7e1b6.dir/HAVE_NUMAIF_H.c.o -MF CMakeFiles/cmTC_7e1b6.dir/HAVE_NUMAIF_H.c.o.d -o CMakeFiles/cmTC_7e1b6.dir/HAVE_NUMAIF_H.c.o -c '/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CheckIncludeFiles/HAVE_NUMAIF_H.c'
+/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CheckIncludeFiles/HAVE_NUMAIF_H.c:2:10: fatal error: 'numaif.h' file not found
+#include <numaif.h>
+         ^~~~~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+Source:
+/* */
+#include <numaif.h>
+
+
+int main(void){return 0;}
+
+Determining size of off64_t failed with the following output:
+Change Dir: /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_43472 && [1/2] Building C object CMakeFiles/cmTC_43472.dir/OFF64_T.c.o
+FAILED: CMakeFiles/cmTC_43472.dir/OFF64_T.c.o 
+/Library/Developer/CommandLineTools/usr/bin/cc -DHAVE_STDDEF_H -DHAVE_STDINT_H -DHAVE_SYS_TYPES_H -D_LARGEFILE64_SOURCE=1  -fno-omit-frame-pointer -ftls-model=initial-exec   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -fPIE -MD -MT CMakeFiles/cmTC_43472.dir/OFF64_T.c.o -MF CMakeFiles/cmTC_43472.dir/OFF64_T.c.o.d -o CMakeFiles/cmTC_43472.dir/OFF64_T.c.o -c '/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CheckTypeSize/OFF64_T.c'
+/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CheckTypeSize/OFF64_T.c:29:12: error: use of undeclared identifier 'off64_t'
+  ('0' + ((SIZE / 10000)%10)),
+           ^
+/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CheckTypeSize/OFF64_T.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(off64_t))
+                     ^
+/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CheckTypeSize/OFF64_T.c:30:12: error: use of undeclared identifier 'off64_t'
+  ('0' + ((SIZE / 1000)%10)),
+           ^
+/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CheckTypeSize/OFF64_T.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(off64_t))
+                     ^
+/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CheckTypeSize/OFF64_T.c:31:12: error: use of undeclared identifier 'off64_t'
+  ('0' + ((SIZE / 100)%10)),
+           ^
+/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CheckTypeSize/OFF64_T.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(off64_t))
+                     ^
+/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CheckTypeSize/OFF64_T.c:32:12: error: use of undeclared identifier 'off64_t'
+  ('0' + ((SIZE / 10)%10)),
+           ^
+/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CheckTypeSize/OFF64_T.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(off64_t))
+                     ^
+/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CheckTypeSize/OFF64_T.c:33:12: error: use of undeclared identifier 'off64_t'
+  ('0' +  (SIZE    % 10)),
+           ^
+/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CheckTypeSize/OFF64_T.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(off64_t))
+                     ^
+5 errors generated.
+ninja: build stopped: subcommand failed.
+
+
+/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CheckTypeSize/OFF64_T.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__PPC64__)
+# define KEY '_','_','P','P','C','6','4','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__PPC__)
+# define KEY '_','_','P','P','C','_','_'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(off64_t))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Performing C++ SOURCE FILE Test HAVE_CXX_W_missing_profile failed with the following output:
+Change Dir: /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_7ce93 && [1/2] Building CXX object CMakeFiles/cmTC_7ce93.dir/src.cxx.o
+warning: unknown warning option '-Wmissing-profile' [-Wunknown-warning-option]
+1 warning generated.
+[2/2] Linking CXX executable cmTC_7ce93
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_GETPW_R_DRAFT failed with the following output:
+Change Dir: /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_40084 && [1/2] Building C object CMakeFiles/cmTC_40084.dir/src.c.o
+FAILED: CMakeFiles/cmTC_40084.dir/src.c.o 
+/Library/Developer/CommandLineTools/usr/bin/cc -DHAVE_GETPW_R_DRAFT -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -fno-omit-frame-pointer -ftls-model=initial-exec   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -fPIE -MD -MT CMakeFiles/cmTC_40084.dir/src.c.o -MF CMakeFiles/cmTC_40084.dir/src.c.o.d -o CMakeFiles/cmTC_40084.dir/src.c.o -c '/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp/src.c'
+/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp/src.c:6:56: error: too few arguments to function call, expected 5, have 4
+    struct passwd *pwd = getpwnam_r(NULL, NULL, NULL, 0);
+                         ~~~~~~~~~~                    ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/pwd.h:103:7: note: 'getpwnam_r' declared here
+int              getpwnam_r(const char *, struct passwd *, char *, size_t, struct passwd **);
+                 ^
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+
+  #include <stdlib.h>
+  #include <sys/types.h>
+  #include <pwd.h>
+  int main() {
+    struct passwd *pwd = getpwnam_r(NULL, NULL, NULL, 0);
+    return pwd != NULL;
+  }
+Determining if the function __secure_getenv exists failed with the following output:
+Change Dir: /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_405f6 && [1/2] Building C object CMakeFiles/cmTC_405f6.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_405f6
+FAILED: cmTC_405f6 
+: && /Library/Developer/CommandLineTools/usr/bin/cc -fno-omit-frame-pointer -ftls-model=initial-exec  -DCHECK_FUNCTION_EXISTS=__secure_getenv -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTC_405f6.dir/CheckFunctionExists.c.o -o cmTC_405f6   && :
+Undefined symbols for architecture x86_64:
+  "___secure_getenv", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the function secure_getenv exists failed with the following output:
+Change Dir: /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_28174 && [1/2] Building C object CMakeFiles/cmTC_28174.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_28174
+FAILED: cmTC_28174 
+: && /Library/Developer/CommandLineTools/usr/bin/cc -fno-omit-frame-pointer -ftls-model=initial-exec  -DCHECK_FUNCTION_EXISTS=secure_getenv -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTC_28174.dir/CheckFunctionExists.c.o -o cmTC_28174   && :
+Undefined symbols for architecture x86_64:
+  "_secure_getenv", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
+
+Performing C SOURCE FILE Test HAVE_STRINGOP_OVERFLOW failed with the following output:
+Change Dir: /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_b28eb && [1/2] Building C object CMakeFiles/cmTC_b28eb.dir/src.c.o
+warning: unknown warning option '-Wstringop-overflow'; did you mean '-Wshift-overflow'? [-Wunknown-warning-option]
+1 warning generated.
+[2/2] Linking C executable cmTC_b28eb
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_STRINGOP_TRUNCATION failed with the following output:
+Change Dir: /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_0e40b && [1/2] Building C object CMakeFiles/cmTC_0e40b.dir/src.c.o
+warning: unknown warning option '-Wstringop-truncation'; did you mean '-Wstring-conversion'? [-Wunknown-warning-option]
+1 warning generated.
+[2/2] Linking C executable cmTC_0e40b
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_W_dangling_pointer failed with the following output:
+Change Dir: /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_ec0f1 && [1/2] Building CXX object CMakeFiles/cmTC_ec0f1.dir/src.cxx.o
+warning: unknown warning option '-Wdangling-pointer' [-Wunknown-warning-option]
+1 warning generated.
+[2/2] Linking CXX executable cmTC_ec0f1
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_c_compiler_flag__Wnormalized_id failed with the following output:
+Change Dir: /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_790f9 && [1/2] Building C object CMakeFiles/cmTC_790f9.dir/src.c.o
+warning: unknown warning option '-Wnormalized=id' [-Wunknown-warning-option]
+1 warning generated.
+[2/2] Linking C executable cmTC_790f9
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_c_compiler_flag__Wlogical_op failed with the following output:
+Change Dir: /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_0f745 && [1/2] Building C object CMakeFiles/cmTC_0f745.dir/src.c.o
+warning: unknown warning option '-Wlogical-op'; did you mean '-Wlong-long'? [-Wunknown-warning-option]
+1 warning generated.
+[2/2] Linking C executable cmTC_0f745
+
+
+Source file was:
+int main(void) { return 0; }
+Determining if the __GNU_LIBRARY__ exist failed with the following output:
+Change Dir: /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_1ced0 && [1/2] Building C object CMakeFiles/cmTC_1ced0.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_1ced0.dir/CheckSymbolExists.c.o 
+/Library/Developer/CommandLineTools/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -fno-omit-frame-pointer -ftls-model=initial-exec  -Wno-documentation -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Woverride-init -Wwrite-strings -Wno-unused-function -Wno-error=deprecated-declarations -Wno-unused-function -Qunused-arguments  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -fPIE -MD -MT CMakeFiles/cmTC_1ced0.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_1ced0.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_1ced0.dir/CheckSymbolExists.c.o -c '/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c'
+/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:10: fatal error: 'features.h' file not found
+#include <features.h>
+         ^~~~~~~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+File /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <features.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef __GNU_LIBRARY__
+  return ((int*)(&__GNU_LIBRARY__))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _GNU_SOURCE exist failed with the following output:
+Change Dir: /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_f6fd8 && [1/2] Building C object CMakeFiles/cmTC_f6fd8.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_f6fd8.dir/CheckSymbolExists.c.o 
+/Library/Developer/CommandLineTools/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -fno-omit-frame-pointer -ftls-model=initial-exec  -Wno-documentation -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Woverride-init -Wwrite-strings -Wno-unused-function -Wno-error=deprecated-declarations -Wno-unused-function -Qunused-arguments  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -fPIE -MD -MT CMakeFiles/cmTC_f6fd8.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_f6fd8.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_f6fd8.dir/CheckSymbolExists.c.o -c '/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c'
+/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:10: fatal error: 'features.h' file not found
+#include <features.h>
+         ^~~~~~~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+File /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <features.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _GNU_SOURCE
+  return ((int*)(&_GNU_SOURCE))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the include file netinet/in6.h exists failed with the following output:
+Change Dir: /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_bf430 && [1/2] Building C object CMakeFiles/cmTC_bf430.dir/CheckIncludeFile.c.o
+FAILED: CMakeFiles/cmTC_bf430.dir/CheckIncludeFile.c.o 
+/Library/Developer/CommandLineTools/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -fno-omit-frame-pointer -ftls-model=initial-exec  -Wno-documentation -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Woverride-init -Wwrite-strings -Wno-unused-function -Wno-error=deprecated-declarations -Wno-unused-function -Qunused-arguments  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -fPIE -MD -MT CMakeFiles/cmTC_bf430.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_bf430.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_bf430.dir/CheckIncludeFile.c.o -c '/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c'
+/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: 'netinet/in6.h' file not found
+#include <netinet/in6.h>
+         ^~~~~~~~~~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the include file port.h exists failed with the following output:
+Change Dir: /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_4052d && [1/2] Building C object CMakeFiles/cmTC_4052d.dir/CheckIncludeFile.c.o
+FAILED: CMakeFiles/cmTC_4052d.dir/CheckIncludeFile.c.o 
+/Library/Developer/CommandLineTools/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -fno-omit-frame-pointer -ftls-model=initial-exec  -Wno-documentation -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Woverride-init -Wwrite-strings -Wno-unused-function -Wno-error=deprecated-declarations -Wno-unused-function -Qunused-arguments  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -fPIE -MD -MT CMakeFiles/cmTC_4052d.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_4052d.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_4052d.dir/CheckIncludeFile.c.o -c '/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c'
+/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: 'port.h' file not found
+#include <port.h>
+         ^~~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the include file sys/devpoll.h exists failed with the following output:
+Change Dir: /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_4de74 && [1/2] Building C object CMakeFiles/cmTC_4de74.dir/CheckIncludeFile.c.o
+FAILED: CMakeFiles/cmTC_4de74.dir/CheckIncludeFile.c.o 
+/Library/Developer/CommandLineTools/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -fno-omit-frame-pointer -ftls-model=initial-exec  -Wno-documentation -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Woverride-init -Wwrite-strings -Wno-unused-function -Wno-error=deprecated-declarations -Wno-unused-function -Qunused-arguments  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -fPIE -MD -MT CMakeFiles/cmTC_4de74.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_4de74.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_4de74.dir/CheckIncludeFile.c.o -c '/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c'
+/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: 'sys/devpoll.h' file not found
+#include <sys/devpoll.h>
+         ^~~~~~~~~~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the include file sys/epoll.h exists failed with the following output:
+Change Dir: /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_5cd17 && [1/2] Building C object CMakeFiles/cmTC_5cd17.dir/CheckIncludeFile.c.o
+FAILED: CMakeFiles/cmTC_5cd17.dir/CheckIncludeFile.c.o 
+/Library/Developer/CommandLineTools/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -fno-omit-frame-pointer -ftls-model=initial-exec  -Wno-documentation -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Woverride-init -Wwrite-strings -Wno-unused-function -Wno-error=deprecated-declarations -Wno-unused-function -Qunused-arguments  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -fPIE -MD -MT CMakeFiles/cmTC_5cd17.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_5cd17.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_5cd17.dir/CheckIncludeFile.c.o -c '/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c'
+/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: 'sys/epoll.h' file not found
+#include <sys/epoll.h>
+         ^~~~~~~~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the include file sys/eventfd.h exists failed with the following output:
+Change Dir: /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_c16ee && [1/2] Building C object CMakeFiles/cmTC_c16ee.dir/CheckIncludeFile.c.o
+FAILED: CMakeFiles/cmTC_c16ee.dir/CheckIncludeFile.c.o 
+/Library/Developer/CommandLineTools/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -fno-omit-frame-pointer -ftls-model=initial-exec  -Wno-documentation -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Woverride-init -Wwrite-strings -Wno-unused-function -Wno-error=deprecated-declarations -Wno-unused-function -Qunused-arguments  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -fPIE -MD -MT CMakeFiles/cmTC_c16ee.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_c16ee.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_c16ee.dir/CheckIncludeFile.c.o -c '/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c'
+/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: 'sys/eventfd.h' file not found
+#include <sys/eventfd.h>
+         ^~~~~~~~~~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the include file sys/sendfile.h exists failed with the following output:
+Change Dir: /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_3c885 && [1/2] Building C object CMakeFiles/cmTC_3c885.dir/CheckIncludeFile.c.o
+FAILED: CMakeFiles/cmTC_3c885.dir/CheckIncludeFile.c.o 
+/Library/Developer/CommandLineTools/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -fno-omit-frame-pointer -ftls-model=initial-exec  -Wno-documentation -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Woverride-init -Wwrite-strings -Wno-unused-function -Wno-error=deprecated-declarations -Wno-unused-function -Qunused-arguments  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -fPIE -MD -MT CMakeFiles/cmTC_3c885.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_3c885.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_3c885.dir/CheckIncludeFile.c.o -c '/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c'
+/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: 'sys/sendfile.h' file not found
+#include <sys/sendfile.h>
+         ^~~~~~~~~~~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the include file sys/timerfd.h exists failed with the following output:
+Change Dir: /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_46892 && [1/2] Building C object CMakeFiles/cmTC_46892.dir/CheckIncludeFile.c.o
+FAILED: CMakeFiles/cmTC_46892.dir/CheckIncludeFile.c.o 
+/Library/Developer/CommandLineTools/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -fno-omit-frame-pointer -ftls-model=initial-exec  -Wno-documentation -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Woverride-init -Wwrite-strings -Wno-unused-function -Wno-error=deprecated-declarations -Wno-unused-function -Qunused-arguments  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -fPIE -MD -MT CMakeFiles/cmTC_46892.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_46892.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_46892.dir/CheckIncludeFile.c.o -c '/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c'
+/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: 'sys/timerfd.h' file not found
+#include <sys/timerfd.h>
+         ^~~~~~~~~~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the function epoll_create exists failed with the following output:
+Change Dir: /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_aeeff && [1/2] Building C object CMakeFiles/cmTC_aeeff.dir/CheckFunctionExistsEx.c.o
+[2/2] Linking C executable cmTC_aeeff
+FAILED: cmTC_aeeff 
+: && /Library/Developer/CommandLineTools/usr/bin/cc -fno-omit-frame-pointer -ftls-model=initial-exec  -Wno-documentation -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Woverride-init -Wwrite-strings -Wno-unused-function -Wno-error=deprecated-declarations -Wno-unused-function -Qunused-arguments -DCHECK_FUNCTION_EXISTS=epoll_create -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTC_aeeff.dir/CheckFunctionExistsEx.c.o -o cmTC_aeeff   && :
+Undefined symbols for architecture x86_64:
+  "_epoll_create", referenced from:
+      _main in CheckFunctionExistsEx.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the function epoll_ctl exists failed with the following output:
+Change Dir: /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_9b7ef && [1/2] Building C object CMakeFiles/cmTC_9b7ef.dir/CheckFunctionExistsEx.c.o
+[2/2] Linking C executable cmTC_9b7ef
+FAILED: cmTC_9b7ef 
+: && /Library/Developer/CommandLineTools/usr/bin/cc -fno-omit-frame-pointer -ftls-model=initial-exec  -Wno-documentation -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Woverride-init -Wwrite-strings -Wno-unused-function -Wno-error=deprecated-declarations -Wno-unused-function -Qunused-arguments -DCHECK_FUNCTION_EXISTS=epoll_ctl -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTC_9b7ef.dir/CheckFunctionExistsEx.c.o -o cmTC_9b7ef   && :
+Undefined symbols for architecture x86_64:
+  "_epoll_ctl", referenced from:
+      _main in CheckFunctionExistsEx.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the function eventfd exists failed with the following output:
+Change Dir: /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_c36e8 && [1/2] Building C object CMakeFiles/cmTC_c36e8.dir/CheckFunctionExistsEx.c.o
+[2/2] Linking C executable cmTC_c36e8
+FAILED: cmTC_c36e8 
+: && /Library/Developer/CommandLineTools/usr/bin/cc -fno-omit-frame-pointer -ftls-model=initial-exec  -Wno-documentation -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Woverride-init -Wwrite-strings -Wno-unused-function -Wno-error=deprecated-declarations -Wno-unused-function -Qunused-arguments -DCHECK_FUNCTION_EXISTS=eventfd -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTC_c36e8.dir/CheckFunctionExistsEx.c.o -o cmTC_c36e8   && :
+Undefined symbols for architecture x86_64:
+  "_eventfd", referenced from:
+      _main in CheckFunctionExistsEx.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the function pipe2 exists failed with the following output:
+Change Dir: /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_c0318 && [1/2] Building C object CMakeFiles/cmTC_c0318.dir/CheckFunctionExistsEx.c.o
+[2/2] Linking C executable cmTC_c0318
+FAILED: cmTC_c0318 
+: && /Library/Developer/CommandLineTools/usr/bin/cc -fno-omit-frame-pointer -ftls-model=initial-exec  -Wno-documentation -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Woverride-init -Wwrite-strings -Wno-unused-function -Wno-error=deprecated-declarations -Wno-unused-function -Qunused-arguments -DCHECK_FUNCTION_EXISTS=pipe2 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTC_c0318.dir/CheckFunctionExistsEx.c.o -o cmTC_c0318   && :
+Undefined symbols for architecture x86_64:
+  "_pipe2", referenced from:
+      _main in CheckFunctionExistsEx.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the function port_create exists failed with the following output:
+Change Dir: /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_c2b6e && [1/2] Building C object CMakeFiles/cmTC_c2b6e.dir/CheckFunctionExistsEx.c.o
+[2/2] Linking C executable cmTC_c2b6e
+FAILED: cmTC_c2b6e 
+: && /Library/Developer/CommandLineTools/usr/bin/cc -fno-omit-frame-pointer -ftls-model=initial-exec  -Wno-documentation -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Woverride-init -Wwrite-strings -Wno-unused-function -Wno-error=deprecated-declarations -Wno-unused-function -Qunused-arguments -DCHECK_FUNCTION_EXISTS=port_create -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTC_c2b6e.dir/CheckFunctionExistsEx.c.o -o cmTC_c2b6e   && :
+Undefined symbols for architecture x86_64:
+  "_port_create", referenced from:
+      _main in CheckFunctionExistsEx.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the function splice exists failed with the following output:
+Change Dir: /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_d0e87 && [1/2] Building C object CMakeFiles/cmTC_d0e87.dir/CheckFunctionExistsEx.c.o
+[2/2] Linking C executable cmTC_d0e87
+FAILED: cmTC_d0e87 
+: && /Library/Developer/CommandLineTools/usr/bin/cc -fno-omit-frame-pointer -ftls-model=initial-exec  -Wno-documentation -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Woverride-init -Wwrite-strings -Wno-unused-function -Wno-error=deprecated-declarations -Wno-unused-function -Qunused-arguments -DCHECK_FUNCTION_EXISTS=splice -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTC_d0e87.dir/CheckFunctionExistsEx.c.o -o cmTC_d0e87   && :
+Undefined symbols for architecture x86_64:
+  "_splice", referenced from:
+      _main in CheckFunctionExistsEx.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the function accept4 exists failed with the following output:
+Change Dir: /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_ea055 && [1/2] Building C object CMakeFiles/cmTC_ea055.dir/CheckFunctionExistsEx.c.o
+[2/2] Linking C executable cmTC_ea055
+FAILED: cmTC_ea055 
+: && /Library/Developer/CommandLineTools/usr/bin/cc -fno-omit-frame-pointer -ftls-model=initial-exec  -Wno-documentation -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Woverride-init -Wwrite-strings -Wno-unused-function -Wno-error=deprecated-declarations -Wno-unused-function -Qunused-arguments -DCHECK_FUNCTION_EXISTS=accept4 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTC_ea055.dir/CheckFunctionExistsEx.c.o -o cmTC_ea055   && :
+Undefined symbols for architecture x86_64:
+  "_accept4", referenced from:
+      _main in CheckFunctionExistsEx.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the function epoll_create1 exists failed with the following output:
+Change Dir: /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_b9a9c && [1/2] Building C object CMakeFiles/cmTC_b9a9c.dir/CheckFunctionExistsEx.c.o
+[2/2] Linking C executable cmTC_b9a9c
+FAILED: cmTC_b9a9c 
+: && /Library/Developer/CommandLineTools/usr/bin/cc -fno-omit-frame-pointer -ftls-model=initial-exec  -Wno-documentation -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Woverride-init -Wwrite-strings -Wno-unused-function -Wno-error=deprecated-declarations -Wno-unused-function -Qunused-arguments -DCHECK_FUNCTION_EXISTS=epoll_create1 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTC_b9a9c.dir/CheckFunctionExistsEx.c.o -o cmTC_b9a9c   && :
+Undefined symbols for architecture x86_64:
+  "_epoll_create1", referenced from:
+      _main in CheckFunctionExistsEx.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the function timeradd exists failed with the following output:
+Change Dir: /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_199b6 && [1/2] Building C object CMakeFiles/cmTC_199b6.dir/CheckFunctionExistsEx.c.o
+[2/2] Linking C executable cmTC_199b6
+FAILED: cmTC_199b6 
+: && /Library/Developer/CommandLineTools/usr/bin/cc -fno-omit-frame-pointer -ftls-model=initial-exec  -Wno-documentation -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Woverride-init -Wwrite-strings -Wno-unused-function -Wno-error=deprecated-declarations -Wno-unused-function -Qunused-arguments -DCHECK_FUNCTION_EXISTS=timeradd -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTC_199b6.dir/CheckFunctionExistsEx.c.o -o cmTC_199b6   && :
+Undefined symbols for architecture x86_64:
+  "_timeradd", referenced from:
+      _main in CheckFunctionExistsEx.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the function timerclear exists failed with the following output:
+Change Dir: /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_dfb7f && [1/2] Building C object CMakeFiles/cmTC_dfb7f.dir/CheckFunctionExistsEx.c.o
+[2/2] Linking C executable cmTC_dfb7f
+FAILED: cmTC_dfb7f 
+: && /Library/Developer/CommandLineTools/usr/bin/cc -fno-omit-frame-pointer -ftls-model=initial-exec  -Wno-documentation -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Woverride-init -Wwrite-strings -Wno-unused-function -Wno-error=deprecated-declarations -Wno-unused-function -Qunused-arguments -DCHECK_FUNCTION_EXISTS=timerclear -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTC_dfb7f.dir/CheckFunctionExistsEx.c.o -o cmTC_dfb7f   && :
+Undefined symbols for architecture x86_64:
+  "_timerclear", referenced from:
+      _main in CheckFunctionExistsEx.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the function timercmp exists failed with the following output:
+Change Dir: /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_38cfe && [1/2] Building C object CMakeFiles/cmTC_38cfe.dir/CheckFunctionExistsEx.c.o
+[2/2] Linking C executable cmTC_38cfe
+FAILED: cmTC_38cfe 
+: && /Library/Developer/CommandLineTools/usr/bin/cc -fno-omit-frame-pointer -ftls-model=initial-exec  -Wno-documentation -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Woverride-init -Wwrite-strings -Wno-unused-function -Wno-error=deprecated-declarations -Wno-unused-function -Qunused-arguments -DCHECK_FUNCTION_EXISTS=timercmp -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTC_38cfe.dir/CheckFunctionExistsEx.c.o -o cmTC_38cfe   && :
+Undefined symbols for architecture x86_64:
+  "_timercmp", referenced from:
+      _main in CheckFunctionExistsEx.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the function timerfd_create exists failed with the following output:
+Change Dir: /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_f3fe0 && [1/2] Building C object CMakeFiles/cmTC_f3fe0.dir/CheckFunctionExistsEx.c.o
+[2/2] Linking C executable cmTC_f3fe0
+FAILED: cmTC_f3fe0 
+: && /Library/Developer/CommandLineTools/usr/bin/cc -fno-omit-frame-pointer -ftls-model=initial-exec  -Wno-documentation -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Woverride-init -Wwrite-strings -Wno-unused-function -Wno-error=deprecated-declarations -Wno-unused-function -Qunused-arguments -DCHECK_FUNCTION_EXISTS=timerfd_create -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTC_f3fe0.dir/CheckFunctionExistsEx.c.o -o cmTC_f3fe0   && :
+Undefined symbols for architecture x86_64:
+  "_timerfd_create", referenced from:
+      _main in CheckFunctionExistsEx.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the function timerisset exists failed with the following output:
+Change Dir: /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_ebb9c && [1/2] Building C object CMakeFiles/cmTC_ebb9c.dir/CheckFunctionExistsEx.c.o
+[2/2] Linking C executable cmTC_ebb9c
+FAILED: cmTC_ebb9c 
+: && /Library/Developer/CommandLineTools/usr/bin/cc -fno-omit-frame-pointer -ftls-model=initial-exec  -Wno-documentation -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Woverride-init -Wwrite-strings -Wno-unused-function -Wno-error=deprecated-declarations -Wno-unused-function -Qunused-arguments -DCHECK_FUNCTION_EXISTS=timerisset -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTC_ebb9c.dir/CheckFunctionExistsEx.c.o -o cmTC_ebb9c   && :
+Undefined symbols for architecture x86_64:
+  "_timerisset", referenced from:
+      _main in CheckFunctionExistsEx.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the function gethostbyname_r exists failed with the following output:
+Change Dir: /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_74c0e && [1/2] Building C object CMakeFiles/cmTC_74c0e.dir/CheckFunctionExistsEx.c.o
+[2/2] Linking C executable cmTC_74c0e
+FAILED: cmTC_74c0e 
+: && /Library/Developer/CommandLineTools/usr/bin/cc -fno-omit-frame-pointer -ftls-model=initial-exec  -Wno-documentation -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Woverride-init -Wwrite-strings -Wno-unused-function -Wno-error=deprecated-declarations -Wno-unused-function -Qunused-arguments -DCHECK_FUNCTION_EXISTS=gethostbyname_r -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTC_74c0e.dir/CheckFunctionExistsEx.c.o -o cmTC_74c0e   && :
+Undefined symbols for architecture x86_64:
+  "_gethostbyname_r", referenced from:
+      _main in CheckFunctionExistsEx.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
+
+Performing C SOURCE FILE Test EVENT__HAVE_DECL_KERN_ARND failed with the following output:
+Change Dir: /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_b3749 && [1/2] Building C object CMakeFiles/cmTC_b3749.dir/src.c.o
+FAILED: CMakeFiles/cmTC_b3749.dir/src.c.o 
+/Library/Developer/CommandLineTools/usr/bin/cc -DEVENT__HAVE_DECL_KERN_ARND -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -fno-omit-frame-pointer -ftls-model=initial-exec  -Wno-documentation -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Woverride-init -Wwrite-strings -Wno-unused-function -Wno-error=deprecated-declarations -Wno-unused-function -Qunused-arguments  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -fPIE -MD -MT CMakeFiles/cmTC_b3749.dir/src.c.o -MF CMakeFiles/cmTC_b3749.dir/src.c.o.d -o CMakeFiles/cmTC_b3749.dir/src.c.o -c '/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp/src.c'
+/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp/src.c:3:28: error: use of undeclared identifier 'KERN_ARND'
+        int main() { (void)KERN_ARND; return 0; }
+                           ^
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+
+          #include <sys/sysctl.h>
+        int main() { (void)KERN_ARND; return 0; }
+Performing C SOURCE FILE Test EVENT__HAVE_DECL_KERN_RANDOM failed with the following output:
+Change Dir: /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_16e1c && [1/2] Building C object CMakeFiles/cmTC_16e1c.dir/src.c.o
+FAILED: CMakeFiles/cmTC_16e1c.dir/src.c.o 
+/Library/Developer/CommandLineTools/usr/bin/cc -DEVENT__HAVE_DECL_KERN_RANDOM -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -fno-omit-frame-pointer -ftls-model=initial-exec  -Wno-documentation -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Woverride-init -Wwrite-strings -Wno-unused-function -Wno-error=deprecated-declarations -Wno-unused-function -Qunused-arguments  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -fPIE -MD -MT CMakeFiles/cmTC_16e1c.dir/src.c.o -MF CMakeFiles/cmTC_16e1c.dir/src.c.o.d -o CMakeFiles/cmTC_16e1c.dir/src.c.o -c '/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp/src.c'
+/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp/src.c:3:28: error: use of undeclared identifier 'KERN_RANDOM'
+        int main() { (void)KERN_RANDOM; return 0; }
+                           ^
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+
+          #include <sys/sysctl.h>
+        int main() { (void)KERN_RANDOM; return 0; }
+Performing C SOURCE FILE Test EVENT__HAVE_DECL_RANDOM_UUID failed with the following output:
+Change Dir: /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_04d94 && [1/2] Building C object CMakeFiles/cmTC_04d94.dir/src.c.o
+FAILED: CMakeFiles/cmTC_04d94.dir/src.c.o 
+/Library/Developer/CommandLineTools/usr/bin/cc -DEVENT__HAVE_DECL_RANDOM_UUID -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -fno-omit-frame-pointer -ftls-model=initial-exec  -Wno-documentation -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Woverride-init -Wwrite-strings -Wno-unused-function -Wno-error=deprecated-declarations -Wno-unused-function -Qunused-arguments  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -fPIE -MD -MT CMakeFiles/cmTC_04d94.dir/src.c.o -MF CMakeFiles/cmTC_04d94.dir/src.c.o.d -o CMakeFiles/cmTC_04d94.dir/src.c.o -c '/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp/src.c'
+/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp/src.c:3:28: error: use of undeclared identifier 'RANDOM_UUID'
+        int main() { (void)RANDOM_UUID; return 0; }
+                           ^
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+
+          #include <sys/sysctl.h>
+        int main() { (void)RANDOM_UUID; return 0; }
+Determining size of SSIZE_T failed with the following output:
+Change Dir: /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_a7766 && [1/2] Building C object CMakeFiles/cmTC_a7766.dir/EVENT__SIZEOF_SSIZE_T_UPPER.c.o
+FAILED: CMakeFiles/cmTC_a7766.dir/EVENT__SIZEOF_SSIZE_T_UPPER.c.o 
+/Library/Developer/CommandLineTools/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -fno-omit-frame-pointer -ftls-model=initial-exec  -Wno-documentation -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Woverride-init -Wwrite-strings -Wno-unused-function -Wno-error=deprecated-declarations -Wno-unused-function -Qunused-arguments  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -fPIE -MD -MT CMakeFiles/cmTC_a7766.dir/EVENT__SIZEOF_SSIZE_T_UPPER.c.o -MF CMakeFiles/cmTC_a7766.dir/EVENT__SIZEOF_SSIZE_T_UPPER.c.o.d -o CMakeFiles/cmTC_a7766.dir/EVENT__SIZEOF_SSIZE_T_UPPER.c.o -c '/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CheckTypeSize/EVENT__SIZEOF_SSIZE_T_UPPER.c'
+/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CheckTypeSize/EVENT__SIZEOF_SSIZE_T_UPPER.c:35:12: error: use of undeclared identifier 'SSIZE_T'
+  ('0' + ((SIZE / 10000)%10)),
+           ^
+/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CheckTypeSize/EVENT__SIZEOF_SSIZE_T_UPPER.c:33:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(SSIZE_T))
+                     ^
+/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CheckTypeSize/EVENT__SIZEOF_SSIZE_T_UPPER.c:36:12: error: use of undeclared identifier 'SSIZE_T'
+  ('0' + ((SIZE / 1000)%10)),
+           ^
+/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CheckTypeSize/EVENT__SIZEOF_SSIZE_T_UPPER.c:33:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(SSIZE_T))
+                     ^
+/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CheckTypeSize/EVENT__SIZEOF_SSIZE_T_UPPER.c:37:12: error: use of undeclared identifier 'SSIZE_T'
+  ('0' + ((SIZE / 100)%10)),
+           ^
+/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CheckTypeSize/EVENT__SIZEOF_SSIZE_T_UPPER.c:33:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(SSIZE_T))
+                     ^
+/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CheckTypeSize/EVENT__SIZEOF_SSIZE_T_UPPER.c:38:12: error: use of undeclared identifier 'SSIZE_T'
+  ('0' + ((SIZE / 10)%10)),
+           ^
+/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CheckTypeSize/EVENT__SIZEOF_SSIZE_T_UPPER.c:33:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(SSIZE_T))
+                     ^
+/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CheckTypeSize/EVENT__SIZEOF_SSIZE_T_UPPER.c:39:12: error: use of undeclared identifier 'SSIZE_T'
+  ('0' +  (SIZE    % 10)),
+           ^
+/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CheckTypeSize/EVENT__SIZEOF_SSIZE_T_UPPER.c:33:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(SSIZE_T))
+                     ^
+5 errors generated.
+ninja: build stopped: subcommand failed.
+
+
+/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CheckTypeSize/EVENT__SIZEOF_SSIZE_T_UPPER.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "sys/types.h"
+#include "sys/socket.h"
+#include "netinet/in.h"
+#include "sys/un.h"
+#include "fcntl.h"
+#include "sys/time.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__PPC64__)
+# define KEY '_','_','P','P','C','6','4','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__PPC__)
+# define KEY '_','_','P','P','C','_','_'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(SSIZE_T))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Performing C SOURCE FILE Test EVENT__HAVE_STRUCT_IN6_ADDR_S6_ADDR16 failed with the following output:
+Change Dir: /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_69e9b && [1/2] Building C object CMakeFiles/cmTC_69e9b.dir/src.c.o
+FAILED: CMakeFiles/cmTC_69e9b.dir/src.c.o 
+/Library/Developer/CommandLineTools/usr/bin/cc -DEVENT__HAVE_STRUCT_IN6_ADDR_S6_ADDR16 -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -fno-omit-frame-pointer -ftls-model=initial-exec  -Wno-documentation -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Woverride-init -Wwrite-strings -Wno-unused-function -Wno-error=deprecated-declarations -Wno-unused-function -Qunused-arguments  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -fPIE -MD -MT CMakeFiles/cmTC_69e9b.dir/src.c.o -MF CMakeFiles/cmTC_69e9b.dir/src.c.o.d -o CMakeFiles/cmTC_69e9b.dir/src.c.o -c '/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp/src.c'
+/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp/src.c:8:40: error: no member named 's6_addr16' in 'struct in6_addr'
+  (void)sizeof(((struct in6_addr *)0)->s6_addr16);
+               ~~~~~~~~~~~~~~~~~~~~~~  ^
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+
+#include <netinet/in.h>
+#include <sys/socket.h>
+#include <netdb.h>
+
+int main()
+{
+  (void)sizeof(((struct in6_addr *)0)->s6_addr16);
+  return 0;
+}
+
+Performing C SOURCE FILE Test EVENT__HAVE_STRUCT_IN6_ADDR_S6_ADDR32 failed with the following output:
+Change Dir: /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_e63b1 && [1/2] Building C object CMakeFiles/cmTC_e63b1.dir/src.c.o
+FAILED: CMakeFiles/cmTC_e63b1.dir/src.c.o 
+/Library/Developer/CommandLineTools/usr/bin/cc -DEVENT__HAVE_STRUCT_IN6_ADDR_S6_ADDR32 -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -fno-omit-frame-pointer -ftls-model=initial-exec  -Wno-documentation -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Woverride-init -Wwrite-strings -Wno-unused-function -Wno-error=deprecated-declarations -Wno-unused-function -Qunused-arguments  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -fPIE -MD -MT CMakeFiles/cmTC_e63b1.dir/src.c.o -MF CMakeFiles/cmTC_e63b1.dir/src.c.o.d -o CMakeFiles/cmTC_e63b1.dir/src.c.o -c '/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp/src.c'
+/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp/src.c:8:40: error: no member named 's6_addr32' in 'struct in6_addr'
+  (void)sizeof(((struct in6_addr *)0)->s6_addr32);
+               ~~~~~~~~~~~~~~~~~~~~~~  ^
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+
+#include <netinet/in.h>
+#include <sys/socket.h>
+#include <netdb.h>
+
+int main()
+{
+  (void)sizeof(((struct in6_addr *)0)->s6_addr32);
+  return 0;
+}
+
+Performing C SOURCE FILE Test EVENT__HAVE_STRUCT_SOCKADDR_IN_SIN_LEN failed with the following output:
+Change Dir: /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_b84ed && [1/2] Building C object CMakeFiles/cmTC_b84ed.dir/src.c.o
+FAILED: CMakeFiles/cmTC_b84ed.dir/src.c.o 
+/Library/Developer/CommandLineTools/usr/bin/cc -DEVENT__HAVE_STRUCT_SOCKADDR_IN_SIN_LEN -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -fno-omit-frame-pointer -ftls-model=initial-exec  -Wno-documentation -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Woverride-init -Wwrite-strings -Wno-unused-function -Wno-error=deprecated-declarations -Wno-unused-function -Qunused-arguments  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -fPIE -MD -MT CMakeFiles/cmTC_b84ed.dir/src.c.o -MF CMakeFiles/cmTC_b84ed.dir/src.c.o.d -o CMakeFiles/cmTC_b84ed.dir/src.c.o -c '/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp/src.c'
+/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp/src.c:8:44: error: no member named 'sin_len' in 'struct sockaddr_in6'; did you mean 'sin6_len'?
+  (void)sizeof(((struct sockaddr_in6 *)0)->sin_len);
+                                           ^~~~~~~
+                                           sin6_len
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/netinet6/in6.h:171:18: note: 'sin6_len' declared here
+        __uint8_t       sin6_len;       /* length of this struct(sa_family_t) */
+                        ^
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+
+#include <netinet/in.h>
+#include <sys/socket.h>
+#include <netdb.h>
+
+int main()
+{
+  (void)sizeof(((struct sockaddr_in6 *)0)->sin_len);
+  return 0;
+}
+
+Performing C SOURCE FILE Test EVENT__HAVE_STRUCT_SOCKADDR_STORAGE___SS_FAMILY failed with the following output:
+Change Dir: /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_e0c3a && [1/2] Building C object CMakeFiles/cmTC_e0c3a.dir/src.c.o
+FAILED: CMakeFiles/cmTC_e0c3a.dir/src.c.o 
+/Library/Developer/CommandLineTools/usr/bin/cc -DEVENT__HAVE_STRUCT_SOCKADDR_STORAGE___SS_FAMILY -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -fno-omit-frame-pointer -ftls-model=initial-exec  -Wno-documentation -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Woverride-init -Wwrite-strings -Wno-unused-function -Wno-error=deprecated-declarations -Wno-unused-function -Qunused-arguments  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -fPIE -MD -MT CMakeFiles/cmTC_e0c3a.dir/src.c.o -MF CMakeFiles/cmTC_e0c3a.dir/src.c.o.d -o CMakeFiles/cmTC_e0c3a.dir/src.c.o -c '/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp/src.c'
+/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp/src.c:8:48: error: no member named '__ss_family' in 'struct sockaddr_storage'; did you mean 'ss_family'?
+  (void)sizeof(((struct sockaddr_storage *)0)->__ss_family);
+                                               ^~~~~~~~~~~
+                                               ss_family
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/socket.h:443:18: note: 'ss_family' declared here
+        sa_family_t     ss_family;      /* [XSI] address family */
+                        ^
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+
+#include <netinet/in.h>
+#include <sys/socket.h>
+#include <netdb.h>
+
+int main()
+{
+  (void)sizeof(((struct sockaddr_storage *)0)->__ss_family);
+  return 0;
+}
+
+Performing C SOURCE FILE Test HAVE_ARRAY_PARAMETER failed with the following output:
+Change Dir: /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_8b517 && [1/2] Building C object CMakeFiles/cmTC_8b517.dir/src.c.o
+warning: unknown warning option '-Warray-parameter'; did you mean '-Wunused-parameter'? [-Wunknown-warning-option]
+1 warning generated.
+[2/2] Linking C executable cmTC_8b517
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_W_return_local_addr failed with the following output:
+Change Dir: /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_a5c04 && [1/2] Building CXX object CMakeFiles/cmTC_a5c04.dir/src.cxx.o
+warning: unknown warning option '-Wreturn-local-addr'; did you mean '-Wreturn-stack-address'? [-Wunknown-warning-option]
+1 warning generated.
+[2/2] Linking CXX executable cmTC_a5c04
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_W_unused_but_set_variable failed with the following output:
+Change Dir: /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_d62bb && [1/2] Building CXX object CMakeFiles/cmTC_d62bb.dir/src.cxx.o
+warning: unknown warning option '-Wunused-but-set-variable'; did you mean '-Wunused-const-variable'? [-Wunknown-warning-option]
+1 warning generated.
+[2/2] Linking CXX executable cmTC_d62bb
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_W_maybe_uninitialized failed with the following output:
+Change Dir: /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_0f0f5 && [1/2] Building CXX object CMakeFiles/cmTC_0f0f5.dir/src.cxx.o
+warning: unknown warning option '-Wmaybe-uninitialized'; did you mean '-Wuninitialized'? [-Wunknown-warning-option]
+1 warning generated.
+[2/2] Linking CXX executable cmTC_0f0f5
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_W_restrict failed with the following output:
+Change Dir: /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_b9f1f && [1/2] Building CXX object CMakeFiles/cmTC_b9f1f.dir/src.cxx.o
+warning: unknown warning option '-Wrestrict' [-Wunknown-warning-option]
+1 warning generated.
+[2/2] Linking CXX executable cmTC_b9f1f
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_W_stringop_truncation failed with the following output:
+Change Dir: /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_d0837 && [1/2] Building CXX object CMakeFiles/cmTC_d0837.dir/src.cxx.o
+warning: unknown warning option '-Wstringop-truncation'; did you mean '-Wstring-conversion'? [-Wunknown-warning-option]
+1 warning generated.
+[2/2] Linking CXX executable cmTC_d0837
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_W_stringop_overflow failed with the following output:
+Change Dir: /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_5ec0c && [1/2] Building CXX object CMakeFiles/cmTC_5ec0c.dir/src.cxx.o
+warning: unknown warning option '-Wstringop-overflow'; did you mean '-Wshift-overflow'? [-Wunknown-warning-option]
+1 warning generated.
+[2/2] Linking CXX executable cmTC_5ec0c
+
+
+Source file was:
+int main(void) { return 0; }
+Determining if the function sched_getcpu exists failed with the following output:
+Change Dir: /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_43638 && [1/2] Building C object CMakeFiles/cmTC_43638.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_43638
+FAILED: cmTC_43638 
+: && /Library/Developer/CommandLineTools/usr/bin/cc -fno-omit-frame-pointer -ftls-model=initial-exec  -Wall -Wextra -Wformat-security -Wvla -Wundef -Wmissing-format-attribute -Wwrite-strings -Wconditional-uninitialized -Wextra-semi -Wmissing-noreturn -Wunreachable-code-break -Wunreachable-code-return -DCHECK_FUNCTION_EXISTS=sched_getcpu -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTC_43638.dir/CheckFunctionExists.c.o -o cmTC_43638   && :
+Undefined symbols for architecture x86_64:
+  "_sched_getcpu", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
+
+Performing C SOURCE FILE Test HAVE_FALLOC_PUNCH_HOLE_AND_KEEP_SIZE failed with the following compile output:
+Change Dir: /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_545c5 && [1/2] Building C object CMakeFiles/cmTC_545c5.dir/src.c.o
+FAILED: CMakeFiles/cmTC_545c5.dir/src.c.o 
+/Library/Developer/CommandLineTools/usr/bin/cc -DHAVE_FALLOC_PUNCH_HOLE_AND_KEEP_SIZE -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -fno-omit-frame-pointer -ftls-model=initial-exec  -Wall -Wextra -Wformat-security -Wvla -Wundef -Wmissing-format-attribute -Wwrite-strings -Wconditional-uninitialized -Wextra-semi -Wmissing-noreturn -Wunreachable-code-break -Wunreachable-code-return  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -fPIE -MD -MT CMakeFiles/cmTC_545c5.dir/src.c.o -MF CMakeFiles/cmTC_545c5.dir/src.c.o.d -o CMakeFiles/cmTC_545c5.dir/src.c.o -c '/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp/src.c'
+/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp/src.c:6:12: fatal error: 'linux/falloc.h' file not found
+  #include <linux/falloc.h>
+           ^~~~~~~~~~~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+...and run output:
+2.1.11-stable
+Return value: 1
+Source file was:
+
+  #ifndef _GNU_SOURCE
+  #define _GNU_SOURCE
+  #endif
+  #include <fcntl.h>
+  #include <linux/falloc.h>
+  int main()
+  {
+    /* Ignore the return value for now. Check if the flags exist.
+    The return value is checked  at runtime. */
+    fallocate(0, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, 0, 0);
+
+    return(0);
+  }
+Performing C SOURCE FILE Test HAVE_FALLOC_FL_ZERO_RANGE failed with the following output:
+Change Dir: /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_4a812 && [1/2] Building C object CMakeFiles/cmTC_4a812.dir/src.c.o
+FAILED: CMakeFiles/cmTC_4a812.dir/src.c.o 
+/Library/Developer/CommandLineTools/usr/bin/cc -DHAVE_FALLOC_FL_ZERO_RANGE -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -fno-omit-frame-pointer -ftls-model=initial-exec  -Wall -Wextra -Wformat-security -Wvla -Wundef -Wmissing-format-attribute -Wwrite-strings -Wconditional-uninitialized -Wextra-semi -Wmissing-noreturn -Wunreachable-code-break -Wunreachable-code-return  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -fPIE -MD -MT CMakeFiles/cmTC_4a812.dir/src.c.o -MF CMakeFiles/cmTC_4a812.dir/src.c.o.d -o CMakeFiles/cmTC_4a812.dir/src.c.o -c '/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp/src.c'
+/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp/src.c:6:12: fatal error: 'linux/falloc.h' file not found
+  #include <linux/falloc.h>
+           ^~~~~~~~~~~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+
+  #ifndef _GNU_SOURCE
+  #define _GNU_SOURCE
+  #endif
+  #include <fcntl.h>
+  #include <linux/falloc.h>
+  int main()
+  {
+    /* Ignore the return value for now. Check if the flags exist.
+    The return value is checked  at runtime. */
+    fallocate(0, FALLOC_FL_ZERO_RANGE, 0, 0);
+
+    return(0);
+  }
+Performing C SOURCE FILE Test HAVE_IB_LINUX_FUTEX failed with the following compile output:
+Change Dir: /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_f6214 && [1/2] Building C object CMakeFiles/cmTC_f6214.dir/src.c.o
+FAILED: CMakeFiles/cmTC_f6214.dir/src.c.o 
+/Library/Developer/CommandLineTools/usr/bin/cc -DHAVE_IB_LINUX_FUTEX -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -fno-omit-frame-pointer -ftls-model=initial-exec  -Wall -Wextra -Wformat-security -Wvla -Wundef -Wmissing-format-attribute -Wwrite-strings -Wconditional-uninitialized -Wextra-semi -Wmissing-noreturn -Wunreachable-code-break -Wunreachable-code-return  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -fPIE -MD -MT CMakeFiles/cmTC_f6214.dir/src.c.o -MF CMakeFiles/cmTC_f6214.dir/src.c.o.d -o CMakeFiles/cmTC_f6214.dir/src.c.o -c '/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp/src.c'
+/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp/src.c:6:12: fatal error: 'linux/futex.h' file not found
+  #include <linux/futex.h>
+           ^~~~~~~~~~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+...and run output:
+2.1.11-stable
+Return value: 1
+Source file was:
+
+  #include <stdio.h>
+  #include <unistd.h>
+  #include <errno.h>
+  #include <assert.h>
+  #include <linux/futex.h>
+  #include <unistd.h>
+  #include <sys/syscall.h>
+
+   int futex_wait(int* futex, int v) {
+        return(syscall(SYS_futex, futex, FUTEX_WAIT_PRIVATE, v, NULL, NULL, 0));
+   }
+
+   int futex_signal(int* futex) {
+        return(syscall(SYS_futex, futex, FUTEX_WAKE, 1, NULL, NULL, 0));
+   }
+
+  int main() {
+        int     ret;
+        int     m = 1;
+
+        /* It is setup to fail and return EWOULDBLOCK. */
+        ret = futex_wait(&m, 0);
+        assert(ret == -1 && errno == EWOULDBLOCK);
+        /* Shouldn't wake up any threads. */
+        assert(futex_signal(&m) == 0);
+
+        return(0);
+  }
+Performing C++ SOURCE FILE Test HAVE_CXX_W_logical_op failed with the following output:
+Change Dir: /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_1f09b && [1/2] Building CXX object CMakeFiles/cmTC_1f09b.dir/src.cxx.o
+warning: unknown warning option '-Wlogical-op'; did you mean '-Wlong-long'? [-Wunknown-warning-option]
+1 warning generated.
+[2/2] Linking CXX executable cmTC_1f09b
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_W_cast_function_type failed with the following output:
+Change Dir: /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_c0ccb && [1/2] Building CXX object CMakeFiles/cmTC_c0ccb.dir/src.cxx.o
+warning: unknown warning option '-Wcast-function-type'; did you mean '-Wbad-function-cast'? [-Wunknown-warning-option]
+1 warning generated.
+[2/2] Linking CXX executable cmTC_c0ccb
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test HAVE_PEERCRED failed with the following output:
+Change Dir: /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_3abb7 && [1/2] Building CXX object CMakeFiles/cmTC_3abb7.dir/src.cxx.o
+FAILED: CMakeFiles/cmTC_3abb7.dir/src.cxx.o 
+/Library/Developer/CommandLineTools/usr/bin/c++ -DHAVE_PEERCRED -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -std=c++17 -fno-omit-frame-pointer -ftls-model=initial-exec  -Wall -Wextra -Wformat-security -Wvla -Wundef -Wmissing-format-attribute -Woverloaded-virtual -Wcast-qual -Wno-null-conversion -Wno-unused-private-field -Wconditional-uninitialized -Wdeprecated -Wextra-semi -Wheader-hygiene -Wnon-virtual-dtor -Wundefined-reinterpret-cast -Winconsistent-missing-destructor-override -Winconsistent-missing-override -Wshadow-field  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -fPIE -MD -MT CMakeFiles/cmTC_3abb7.dir/src.cxx.o -MF CMakeFiles/cmTC_3abb7.dir/src.cxx.o.d -o CMakeFiles/cmTC_3abb7.dir/src.cxx.o -c '/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp/src.cxx'
+/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp/src.cxx:6:16: error: variable has incomplete type 'struct ucred'
+  struct ucred cred;
+               ^
+/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp/src.cxx:6:10: note: forward declaration of 'ucred'
+  struct ucred cred;
+         ^
+/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp/src.cxx:7:29: error: use of undeclared identifier 'SO_PEERCRED'
+  getsockopt(0, SOL_SOCKET, SO_PEERCRED, &cred, 0);
+                            ^
+2 errors generated.
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+#ifndef _GNU_SOURCE
+#define _GNU_SOURCE
+#endif
+#include <sys/socket.h>
+int main() {
+  struct ucred cred;
+  getsockopt(0, SOL_SOCKET, SO_PEERCRED, &cred, 0);
+}
+Performing C SOURCE FILE Test HAVE_XDR_OPS_X_PUTINT32 failed with the following output:
+Change Dir: /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_dd976 && [1/2] Building C object CMakeFiles/cmTC_dd976.dir/src.c.o
+FAILED: CMakeFiles/cmTC_dd976.dir/src.c.o 
+/Library/Developer/CommandLineTools/usr/bin/cc -DHAVE_XDR_OPS_X_PUTINT32 -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -fno-omit-frame-pointer -ftls-model=initial-exec  -Wall -Wextra -Wformat-security -Wvla -Wundef -Wmissing-format-attribute -Wwrite-strings -Wconditional-uninitialized -Wextra-semi -Wmissing-noreturn -Wunreachable-code-break -Wunreachable-code-return -Wno-error -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -fPIE -MD -MT CMakeFiles/cmTC_dd976.dir/src.c.o -MF CMakeFiles/cmTC_dd976.dir/src.c.o.d -o CMakeFiles/cmTC_dd976.dir/src.c.o -c '/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp/src.c'
+In file included from /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp/src.c:2:
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/rpc/xdr.h:126:3: error: type name requires a specifier or qualifier
+                bool_t  (*x_getlong)(struct __rpc_xdr *, int *);
+                ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/rpc/xdr.h:128:3: error: type name requires a specifier or qualifier
+                bool_t  (*x_putlong)(struct __rpc_xdr *, const int *);
+                ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/rpc/xdr.h:128:3: error: duplicate member 'bool_t'
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/rpc/xdr.h:126:3: note: previous declaration is here
+                bool_t  (*x_getlong)(struct __rpc_xdr *, int *);
+                ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/rpc/xdr.h:136:3: error: type name requires a specifier or qualifier
+                bool_t  (*x_getbytes)(struct __rpc_xdr *, char *, unsigned int);
+                ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/rpc/xdr.h:136:3: error: duplicate member 'bool_t'
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/rpc/xdr.h:126:3: note: previous declaration is here
+                bool_t  (*x_getlong)(struct __rpc_xdr *, int *);
+                ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/rpc/xdr.h:138:3: error: type name requires a specifier or qualifier
+                bool_t  (*x_putbytes)(struct __rpc_xdr *, const char *, unsigned int);
+                ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/rpc/xdr.h:138:3: error: duplicate member 'bool_t'
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/rpc/xdr.h:126:3: note: previous declaration is here
+                bool_t  (*x_getlong)(struct __rpc_xdr *, int *);
+                ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/rpc/xdr.h:142:3: error: type name requires a specifier or qualifier
+                bool_t  (*x_setpostn)(struct __rpc_xdr *, unsigned int);
+                ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/rpc/xdr.h:142:3: error: duplicate member 'bool_t'
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/rpc/xdr.h:126:3: note: previous declaration is here
+                bool_t  (*x_getlong)(struct __rpc_xdr *, int *);
+                ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/rpc/xdr.h:144:3: error: unknown type name 'int32_t'
+                int32_t *(*x_inline)(struct __rpc_xdr *, unsigned int);
+                ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/rpc/xdr.h:147:3: error: type name requires a specifier or qualifier
+                bool_t  (*x_control)(struct __rpc_xdr *, int, void *);
+                ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/rpc/xdr.h:147:3: error: duplicate member 'bool_t'
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/rpc/xdr.h:126:3: note: previous declaration is here
+                bool_t  (*x_getlong)(struct __rpc_xdr *, int *);
+                ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/rpc/xdr.h:191:16: error: function cannot return function type 'int (XDR *, void *, unsigned int)' (aka 'int (struct __rpc_xdr *, void *, unsigned int)')
+typedef bool_t (*xdrproc_t)(XDR *, void *, unsigned int);
+               ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/rpc/xdr.h:215:25: error: unknown type name 'int32_t'
+xdr_getint32(XDR *xdrs, int32_t *ip)
+                        ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/rpc/xdr.h:217:2: error: use of undeclared identifier 'int32_t'
+        int32_t l;
+        ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/rpc/xdr.h:219:7: error: no member named 'x_getlong' in 'struct xdr_ops'
+        if (!xdr_getlong(xdrs, &l))
+             ^~~~~~~~~~~~~~~~~~~~~
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/rpc/xdr.h:205:19: note: expanded from macro 'xdr_getlong'
+        (*(xdrs)->x_ops->x_getlong)(xdrs, longp)
+          ~~~~~~~~~~~~~  ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/rpc/xdr.h:219:26: error: use of undeclared identifier 'l'
+        if (!xdr_getlong(xdrs, &l))
+                                ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/rpc/xdr.h:220:11: error: use of undeclared identifier 'FALSE'
+                return (FALSE);
+                        ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/rpc/xdr.h:221:8: error: use of undeclared identifier 'l'
+        *ip = l;
+              ^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+20 errors generated.
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+
+#include <rpc/xdr.h>
+
+int main()
+{
+  (void)sizeof(((struct xdr_ops *)0)->x_putint32);
+  return 0;
+}
+
+Performing C SOURCE FILE Test HAVE_XDR_OPS_X_GETINT32 failed with the following output:
+Change Dir: /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_ac57d && [1/2] Building C object CMakeFiles/cmTC_ac57d.dir/src.c.o
+FAILED: CMakeFiles/cmTC_ac57d.dir/src.c.o 
+/Library/Developer/CommandLineTools/usr/bin/cc -DHAVE_XDR_OPS_X_GETINT32 -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -fno-omit-frame-pointer -ftls-model=initial-exec  -Wall -Wextra -Wformat-security -Wvla -Wundef -Wmissing-format-attribute -Wwrite-strings -Wconditional-uninitialized -Wextra-semi -Wmissing-noreturn -Wunreachable-code-break -Wunreachable-code-return -Wno-error -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -fPIE -MD -MT CMakeFiles/cmTC_ac57d.dir/src.c.o -MF CMakeFiles/cmTC_ac57d.dir/src.c.o.d -o CMakeFiles/cmTC_ac57d.dir/src.c.o -c '/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp/src.c'
+In file included from /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp/src.c:2:
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/rpc/xdr.h:126:3: error: type name requires a specifier or qualifier
+                bool_t  (*x_getlong)(struct __rpc_xdr *, int *);
+                ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/rpc/xdr.h:128:3: error: type name requires a specifier or qualifier
+                bool_t  (*x_putlong)(struct __rpc_xdr *, const int *);
+                ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/rpc/xdr.h:128:3: error: duplicate member 'bool_t'
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/rpc/xdr.h:126:3: note: previous declaration is here
+                bool_t  (*x_getlong)(struct __rpc_xdr *, int *);
+                ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/rpc/xdr.h:136:3: error: type name requires a specifier or qualifier
+                bool_t  (*x_getbytes)(struct __rpc_xdr *, char *, unsigned int);
+                ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/rpc/xdr.h:136:3: error: duplicate member 'bool_t'
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/rpc/xdr.h:126:3: note: previous declaration is here
+                bool_t  (*x_getlong)(struct __rpc_xdr *, int *);
+                ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/rpc/xdr.h:138:3: error: type name requires a specifier or qualifier
+                bool_t  (*x_putbytes)(struct __rpc_xdr *, const char *, unsigned int);
+                ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/rpc/xdr.h:138:3: error: duplicate member 'bool_t'
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/rpc/xdr.h:126:3: note: previous declaration is here
+                bool_t  (*x_getlong)(struct __rpc_xdr *, int *);
+                ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/rpc/xdr.h:142:3: error: type name requires a specifier or qualifier
+                bool_t  (*x_setpostn)(struct __rpc_xdr *, unsigned int);
+                ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/rpc/xdr.h:142:3: error: duplicate member 'bool_t'
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/rpc/xdr.h:126:3: note: previous declaration is here
+                bool_t  (*x_getlong)(struct __rpc_xdr *, int *);
+                ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/rpc/xdr.h:144:3: error: unknown type name 'int32_t'
+                int32_t *(*x_inline)(struct __rpc_xdr *, unsigned int);
+                ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/rpc/xdr.h:147:3: error: type name requires a specifier or qualifier
+                bool_t  (*x_control)(struct __rpc_xdr *, int, void *);
+                ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/rpc/xdr.h:147:3: error: duplicate member 'bool_t'
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/rpc/xdr.h:126:3: note: previous declaration is here
+                bool_t  (*x_getlong)(struct __rpc_xdr *, int *);
+                ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/rpc/xdr.h:191:16: error: function cannot return function type 'int (XDR *, void *, unsigned int)' (aka 'int (struct __rpc_xdr *, void *, unsigned int)')
+typedef bool_t (*xdrproc_t)(XDR *, void *, unsigned int);
+               ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/rpc/xdr.h:215:25: error: unknown type name 'int32_t'
+xdr_getint32(XDR *xdrs, int32_t *ip)
+                        ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/rpc/xdr.h:217:2: error: use of undeclared identifier 'int32_t'
+        int32_t l;
+        ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/rpc/xdr.h:219:7: error: no member named 'x_getlong' in 'struct xdr_ops'
+        if (!xdr_getlong(xdrs, &l))
+             ^~~~~~~~~~~~~~~~~~~~~
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/rpc/xdr.h:205:19: note: expanded from macro 'xdr_getlong'
+        (*(xdrs)->x_ops->x_getlong)(xdrs, longp)
+          ~~~~~~~~~~~~~  ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/rpc/xdr.h:219:26: error: use of undeclared identifier 'l'
+        if (!xdr_getlong(xdrs, &l))
+                                ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/rpc/xdr.h:220:11: error: use of undeclared identifier 'FALSE'
+                return (FALSE);
+                        ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/rpc/xdr.h:221:8: error: use of undeclared identifier 'l'
+        *ip = l;
+              ^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+20 errors generated.
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+
+#include <rpc/xdr.h>
+
+int main()
+{
+  (void)sizeof(((struct xdr_ops *)0)->x_getint32);
+  return 0;
+}
+
+Performing C SOURCE FILE Test HAVE_RPC_INLINE_T failed with the following output:
+Change Dir: /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_01c94 && [1/2] Building C object CMakeFiles/cmTC_01c94.dir/src.c.o
+FAILED: CMakeFiles/cmTC_01c94.dir/src.c.o 
+/Library/Developer/CommandLineTools/usr/bin/cc -DHAVE_RPC_INLINE_T -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -fno-omit-frame-pointer -ftls-model=initial-exec  -Wall -Wextra -Wformat-security -Wvla -Wundef -Wmissing-format-attribute -Wwrite-strings -Wconditional-uninitialized -Wextra-semi -Wmissing-noreturn -Wunreachable-code-break -Wunreachable-code-return -Wno-error -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -fPIE -MD -MT CMakeFiles/cmTC_01c94.dir/src.c.o -MF CMakeFiles/cmTC_01c94.dir/src.c.o.d -o CMakeFiles/cmTC_01c94.dir/src.c.o -c '/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp/src.c'
+/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp/src.c:3:20: error: use of undeclared identifier 'rpc_inline_t'
+  int main(void) { rpc_inline_t x; return 0; }
+                   ^
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+
+  #include <rpc/types.h>
+  int main(void) { rpc_inline_t x; return 0; }
+  
+Performing C++ SOURCE FILE Test HAVE_CXX_W_unused_but_set_parameter failed with the following output:
+Change Dir: /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_9d2de && [1/2] Building CXX object CMakeFiles/cmTC_9d2de.dir/src.cxx.o
+warning: unknown warning option '-Wunused-but-set-parameter'; did you mean '-Wunused-parameter'? [-Wunknown-warning-option]
+1 warning generated.
+[2/2] Linking CXX executable cmTC_9d2de
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_W_format_overflow failed with the following output:
+Change Dir: /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_3e87f && [1/2] Building CXX object CMakeFiles/cmTC_3e87f.dir/src.cxx.o
+warning: unknown warning option '-Wformat-overflow'; did you mean '-Wshift-overflow'? [-Wunknown-warning-option]
+1 warning generated.
+[2/2] Linking CXX executable cmTC_3e87f
+
+
+Source file was:
+int main(void) { return 0; }
+Determining if the prlimit exist failed with the following output:
+Change Dir: /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_8b4c8 && [1/2] Building C object CMakeFiles/cmTC_8b4c8.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_8b4c8.dir/CheckSymbolExists.c.o 
+/Library/Developer/CommandLineTools/usr/bin/cc   -fno-omit-frame-pointer -ftls-model=initial-exec  -Wall -Wextra -Wformat-security -Wvla -Wundef -Wmissing-format-attribute -Wwrite-strings -Wconditional-uninitialized -Wextra-semi -Wmissing-noreturn -Wunreachable-code-break -Wunreachable-code-return -D_GNU_SOURCE -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -fPIE -MD -MT CMakeFiles/cmTC_8b4c8.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_8b4c8.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_8b4c8.dir/CheckSymbolExists.c.o -c '/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c'
+/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: use of undeclared identifier 'prlimit'
+  return ((int*)(&prlimit))[argc];
+                  ^
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+File /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/resource.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef prlimit
+  return ((int*)(&prlimit))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C++ SOURCE FILE Test COMPILER_HAS_PROFILE_INSTR_GENERATE failed with the following output:
+Change Dir: /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_1a2d5 && [1/2] Building CXX object CMakeFiles/cmTC_1a2d5.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_1a2d5
+FAILED: cmTC_1a2d5 
+: && /Library/Developer/CommandLineTools/usr/bin/c++ -std=c++17 -fno-omit-frame-pointer -ftls-model=initial-exec  -Wall -Wextra -Wformat-security -Wvla -Wundef -Wmissing-format-attribute -Woverloaded-virtual -Wcast-qual -Wno-null-conversion -Wno-unused-private-field -Wconditional-uninitialized -Wdeprecated -Wextra-semi -Wheader-hygiene -Wnon-virtual-dtor -Wundefined-reinterpret-cast -Winconsistent-missing-destructor-override -Winconsistent-missing-override -Wshadow-field  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTC_1a2d5.dir/src.cxx.o -o cmTC_1a2d5   && :
+Undefined symbols for architecture x86_64:
+  "___llvm_profile_runtime", referenced from:
+      ___llvm_profile_runtime_user in src.cxx.o
+     (maybe you meant: ___llvm_profile_runtime_user)
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_HAS_SANITIZE_FUZZER failed with the following output:
+Change Dir: /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_93998 && [1/2] Building CXX object CMakeFiles/cmTC_93998.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_93998
+FAILED: cmTC_93998 
+: && /Library/Developer/CommandLineTools/usr/bin/c++ -std=c++17 -fno-omit-frame-pointer -ftls-model=initial-exec  -Wall -Wextra -Wformat-security -Wvla -Wundef -Wmissing-format-attribute -Woverloaded-virtual -Wcast-qual -Wno-null-conversion -Wno-unused-private-field -Wconditional-uninitialized -Wdeprecated -Wextra-semi -Wheader-hygiene -Wnon-virtual-dtor -Wundefined-reinterpret-cast -Winconsistent-missing-destructor-override -Winconsistent-missing-override -Wshadow-field -fsanitize=fuzzer -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTC_93998.dir/src.cxx.o -o cmTC_93998  -fsanitize=fuzzer && :
+ld: file not found: /Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/lib/darwin/libclang_rt.fuzzer_osx.a
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+
+extern "C" int LLVMFuzzerTestOneInput (void *, int)
+{ return 0; }
+Performing C++ SOURCE FILE Test CLANG_HAS_LIBFUZZER failed with the following output:
+Change Dir: /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_3171c && [1/2] Building CXX object CMakeFiles/cmTC_3171c.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_3171c
+FAILED: cmTC_3171c 
+: && /Library/Developer/CommandLineTools/usr/bin/c++ -std=c++17 -fno-omit-frame-pointer -ftls-model=initial-exec  -Wall -Wextra -Wformat-security -Wvla -Wundef -Wmissing-format-attribute -Woverloaded-virtual -Wcast-qual -Wno-null-conversion -Wno-unused-private-field -Wconditional-uninitialized -Wdeprecated -Wextra-semi -Wheader-hygiene -Wnon-virtual-dtor -Wundefined-reinterpret-cast -Winconsistent-missing-destructor-override -Winconsistent-missing-override -Wshadow-field -fsanitize-coverage=trace-pc-guard -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTC_3171c.dir/src.cxx.o -o cmTC_3171c  -lFuzzer && :
+ld: library not found for -lFuzzer
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+
+      extern "C" int LLVMFuzzerTestOneInput (void *, int)
+      { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_W_suggest_attribute_format failed with the following output:
+Change Dir: /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_016e7 && [1/2] Building CXX object CMakeFiles/cmTC_016e7.dir/src.cxx.o
+warning: unknown warning option '-Wsuggest-attribute=format'; did you mean '-Wproperty-attribute-mismatch'? [-Wunknown-warning-option]
+1 warning generated.
+[2/2] Linking CXX executable cmTC_016e7
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_W_format_truncation failed with the following output:
+Change Dir: /Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_2e125 && [1/2] Building CXX object CMakeFiles/cmTC_2e125.dir/src.cxx.o
+warning: unknown warning option '-Wformat-truncation' [-Wunknown-warning-option]
+1 warning generated.
+[2/2] Linking CXX executable cmTC_2e125
+
+
+Source file was:
+int main(void) { return 0; }

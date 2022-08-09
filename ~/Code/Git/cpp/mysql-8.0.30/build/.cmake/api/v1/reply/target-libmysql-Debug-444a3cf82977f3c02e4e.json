@@ -1,0 +1,583 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "library_output_directory/libmysqlclient.dylib"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"ADD_LIBRARY",
+			"MERGE_LIBRARIES_SHARED",
+			"INSTALL",
+			"MYSQL_INSTALL_TARGET",
+			"TARGET_LINK_LIBRARIES",
+			"ADD_COMPILE_OPTIONS",
+			"ADD_WSHADOW_WARNING",
+			"ADD_DEFINITIONS",
+			"MYSQL_CHECK_SSL",
+			"INCLUDE",
+			"INCLUDE_DIRECTORIES",
+			"MYSQL_CHECK_RAPIDJSON",
+			"MYSQL_USE_BUNDLED_PROTOBUF",
+			"MYSQL_CHECK_PROTOBUF",
+			"MYSQL_USE_BUNDLED_LZ4",
+			"MYSQL_CHECK_LZ4",
+			"MYSQL_USE_BUNDLED_EDITLINE",
+			"MYSQL_CHECK_EDITLINE",
+			"MYSQL_USE_BUNDLED_ZSTD",
+			"MYSQL_CHECK_ZSTD",
+			"MYSQL_USE_BUNDLED_ZLIB",
+			"MYSQL_CHECK_ZLIB"
+		],
+		"files" : 
+		[
+			"cmake/libutils.cmake",
+			"libmysql/CMakeLists.txt",
+			"cmake/install_macros.cmake",
+			"cmake/maintainer.cmake",
+			"CMakeLists.txt",
+			"cmake/ssl.cmake",
+			"cmake/rapidjson.cmake",
+			"cmake/protobuf.cmake",
+			"cmake/lz4.cmake",
+			"cmake/readline.cmake",
+			"cmake/zstd.cmake",
+			"cmake/zlib.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 340,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 224,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 300,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 116,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 252,
+				"parent" : 1
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 255,
+				"parent" : 1
+			},
+			{
+				"command" : 6,
+				"file" : 1,
+				"line" : 23,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 195,
+				"parent" : 7
+			},
+			{
+				"file" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 4,
+				"line" : 1566,
+				"parent" : 9
+			},
+			{
+				"command" : 8,
+				"file" : 4,
+				"line" : 1768,
+				"parent" : 9
+			},
+			{
+				"command" : 7,
+				"file" : 5,
+				"line" : 384,
+				"parent" : 11
+			},
+			{
+				"command" : 7,
+				"file" : 4,
+				"line" : 1570,
+				"parent" : 9
+			},
+			{
+				"command" : 9,
+				"file" : 4,
+				"line" : 786,
+				"parent" : 9
+			},
+			{
+				"file" : 6,
+				"parent" : 14
+			},
+			{
+				"command" : 7,
+				"file" : 6,
+				"line" : 125,
+				"parent" : 15
+			},
+			{
+				"command" : 7,
+				"file" : 6,
+				"line" : 126,
+				"parent" : 15
+			},
+			{
+				"command" : 7,
+				"file" : 6,
+				"line" : 127,
+				"parent" : 15
+			},
+			{
+				"command" : 7,
+				"file" : 4,
+				"line" : 1569,
+				"parent" : 9
+			},
+			{
+				"command" : 7,
+				"file" : 4,
+				"line" : 1568,
+				"parent" : 9
+			},
+			{
+				"command" : 7,
+				"file" : 4,
+				"line" : 1567,
+				"parent" : 9
+			},
+			{
+				"command" : 10,
+				"file" : 4,
+				"line" : 1578,
+				"parent" : 9
+			},
+			{
+				"command" : 11,
+				"file" : 4,
+				"line" : 1924,
+				"parent" : 9
+			},
+			{
+				"command" : 10,
+				"file" : 6,
+				"line" : 119,
+				"parent" : 23
+			},
+			{
+				"command" : 13,
+				"file" : 4,
+				"line" : 1901,
+				"parent" : 9
+			},
+			{
+				"command" : 12,
+				"file" : 7,
+				"line" : 122,
+				"parent" : 25
+			},
+			{
+				"command" : 10,
+				"file" : 7,
+				"line" : 112,
+				"parent" : 26
+			},
+			{
+				"command" : 15,
+				"file" : 4,
+				"line" : 1894,
+				"parent" : 9
+			},
+			{
+				"command" : 14,
+				"file" : 8,
+				"line" : 79,
+				"parent" : 28
+			},
+			{
+				"command" : 10,
+				"file" : 8,
+				"line" : 62,
+				"parent" : 29
+			},
+			{
+				"command" : 17,
+				"file" : 4,
+				"line" : 1872,
+				"parent" : 9
+			},
+			{
+				"command" : 16,
+				"file" : 9,
+				"line" : 220,
+				"parent" : 31
+			},
+			{
+				"command" : 10,
+				"file" : 9,
+				"line" : 124,
+				"parent" : 32
+			},
+			{
+				"command" : 19,
+				"file" : 4,
+				"line" : 1742,
+				"parent" : 9
+			},
+			{
+				"command" : 18,
+				"file" : 10,
+				"line" : 84,
+				"parent" : 34
+			},
+			{
+				"command" : 10,
+				"file" : 10,
+				"line" : 74,
+				"parent" : 35
+			},
+			{
+				"command" : 21,
+				"file" : 4,
+				"line" : 1739,
+				"parent" : 9
+			},
+			{
+				"command" : 20,
+				"file" : 11,
+				"line" : 124,
+				"parent" : 37
+			},
+			{
+				"command" : 10,
+				"file" : 11,
+				"line" : 98,
+				"parent" : 38
+			},
+			{
+				"command" : 10,
+				"file" : 5,
+				"line" : 477,
+				"parent" : 11
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-fno-omit-frame-pointer -ftls-model=initial-exec  -Wall -Wextra -Wformat-security -Wvla -Wundef -Wmissing-format-attribute -Wwrite-strings -Wconditional-uninitialized -Wextra-semi -Wmissing-noreturn -Wunreachable-code-break -Wunreachable-code-return -DSAFE_MUTEX -DENABLED_DEBUG_SYNC -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -fPIC   -D CLIENT_PROTOCOL_TRACING"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wshadow-uncaptured-local"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 10,
+					"define" : "HAVE_CONFIG_H"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "HAVE_TLSv13"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "LZ4_DISABLE_DEPRECATE_WARNINGS"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "RAPIDJSON_NO_SIZETYPEDEFINE"
+				},
+				{
+					"backtrace" : 17,
+					"define" : "RAPIDJSON_SCHEMA_USE_INTERNALREGEX=0"
+				},
+				{
+					"backtrace" : 18,
+					"define" : "RAPIDJSON_SCHEMA_USE_STDREGEX=1"
+				},
+				{
+					"backtrace" : 19,
+					"define" : "_USE_MATH_DEFINES"
+				},
+				{
+					"backtrace" : 20,
+					"define" : "__STDC_FORMAT_MACROS"
+				},
+				{
+					"backtrace" : 21,
+					"define" : "__STDC_LIMIT_MACROS"
+				},
+				{
+					"define" : "libmysql_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 22,
+					"path" : "/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build"
+				},
+				{
+					"backtrace" : 22,
+					"path" : "/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/include"
+				},
+				{
+					"backtrace" : 22,
+					"path" : "/Users/dingrui/Code/Git/cpp/mysql-8.0.30"
+				},
+				{
+					"backtrace" : 22,
+					"path" : "/Users/dingrui/Code/Git/cpp/mysql-8.0.30/include"
+				},
+				{
+					"backtrace" : 24,
+					"isSystem" : true,
+					"path" : "/Users/dingrui/Code/Git/cpp/mysql-8.0.30/extra/rapidjson/include"
+				},
+				{
+					"backtrace" : 27,
+					"isSystem" : true,
+					"path" : "/Users/dingrui/Code/Git/cpp/mysql-8.0.30/extra/protobuf/protobuf-3.19.4/src"
+				},
+				{
+					"backtrace" : 30,
+					"isSystem" : true,
+					"path" : "/Users/dingrui/Code/Git/cpp/mysql-8.0.30/extra/lz4/lz4-1.9.3"
+				},
+				{
+					"backtrace" : 33,
+					"isSystem" : true,
+					"path" : "/Users/dingrui/Code/Git/cpp/mysql-8.0.30/extra/libedit/libedit-20210910-3.1/src/editline"
+				},
+				{
+					"backtrace" : 36,
+					"isSystem" : true,
+					"path" : "/Users/dingrui/Code/Git/cpp/mysql-8.0.30/extra/zstd/zstd-1.5.0/lib"
+				},
+				{
+					"backtrace" : 39,
+					"isSystem" : true,
+					"path" : "/Users/dingrui/Code/Git/cpp/mysql-8.0.30/~/Code/Git/cpp/mysql-8.0.30/build/extra/zlib/zlib-1.2.12"
+				},
+				{
+					"backtrace" : 39,
+					"isSystem" : true,
+					"path" : "/Users/dingrui/Code/Git/cpp/mysql-8.0.30/extra/zlib/zlib-1.2.12"
+				},
+				{
+					"backtrace" : 40,
+					"isSystem" : true,
+					"path" : "/usr/local/opt/openssl@1.1/include"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 5,
+			"id" : "strings::@89d0016ae4e25e06fd39"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "vio::@c062e1da8e129617a875"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "mytime::@64e0e5023d60a36b555e"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "zlib::@d2a5661d151ccee8fca1"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "zstd::@4852f3e90c5b3a8fc4e8"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "clientlib::@804198ce8b9bd67f3a0d"
+		}
+	],
+	"id" : "libmysql::@804198ce8b9bd67f3a0d",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 4,
+				"path" : "lib"
+			},
+			{
+				"backtrace" : 4,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/Users/dingrui/Code/Git/cpp/mysql-8.0.30/build"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-Wl,-u,_mysql_affected_rows -Wl,-u,_mysql_autocommit -Wl,-u,_mysql_change_user -Wl,-u,_mysql_character_set_name -Wl,-u,_mysql_close -Wl,-u,_mysql_commit -Wl,-u,_mysql_data_seek -Wl,-u,_mysql_debug -Wl,-u,_mysql_dump_debug_info -Wl,-u,_mysql_eof -Wl,-u,_mysql_errno -Wl,-u,_mysql_error -Wl,-u,_mysql_escape_string -Wl,-u,_mysql_fetch_field -Wl,-u,_mysql_fetch_field_direct -Wl,-u,_mysql_fetch_fields -Wl,-u,_mysql_fetch_lengths -Wl,-u,_mysql_fetch_row -Wl,-u,_mysql_field_count -Wl,-u,_mysql_field_seek -Wl,-u,_mysql_field_tell -Wl,-u,_mysql_free_result -Wl,-u,_mysql_get_client_info -Wl,-u,_mysql_get_client_version -Wl,-u,_mysql_get_host_info -Wl,-u,_mysql_get_proto_info -Wl,-u,_mysql_get_server_info -Wl,-u,_mysql_get_ssl_cipher -Wl,-u,_mysql_hex_string -Wl,-u,_mysql_info -Wl,-u,_mysql_init -Wl,-u,_mysql_insert_id -Wl,-u,_mysql_kill -Wl,-u,_mysql_list_dbs -Wl,-u,_mysql_list_fields -Wl,-u,_mysql_list_processes -Wl,-u,_mysql_list_tables -Wl,-u,_mysql_more_results -Wl,-u,_mysql_next_result -Wl,-u,_mysql_num_fields -Wl,-u,_mysql_num_rows -Wl,-u,_mysql_options -Wl,-u,_mysql_ping -Wl,-u,_mysql_query -Wl,-u,_mysql_set_server_option -Wl,-u,_mysql_stmt_bind_param -Wl,-u,_mysql_stmt_bind_result -Wl,-u,_mysql_stmt_execute -Wl,-u,_mysql_stmt_fetch -Wl,-u,_mysql_stmt_fetch_column -Wl,-u,_mysql_stmt_param_count -Wl,-u,_mysql_stmt_param_metadata -Wl,-u,_mysql_stmt_result_metadata -Wl,-u,_mysql_thread_end -Wl,-u,_mysql_thread_init -Wl,-u,_mysql_read_query_result -Wl,-u,_mysql_real_connect -Wl,-u,_mysql_real_escape_string -Wl,-u,_mysql_real_escape_string_quote -Wl,-u,_mysql_real_query -Wl,-u,_mysql_refresh -Wl,-u,_mysql_rollback -Wl,-u,_mysql_row_seek -Wl,-u,_mysql_row_tell -Wl,-u,_mysql_select_db -Wl,-u,_mysql_stmt_send_long_data -Wl,-u,_mysql_client_find_plugin -Wl,-u,_mysql_client_register_plugin -Wl,-u,_mysql_get_character_set_info -Wl,-u,_mysql_get_option -Wl,-u,_mysql_get_server_version -Wl,-u,_mysql_load_plugin -Wl,-u,_mysql_load_plugin_v -Wl,-u,_mysql_options4 -Wl,-u,_mysql_plugin_options -Wl,-u,_mysql_reset_connection -Wl,-u,_mysql_reset_server_public_key -Wl,-u,_mysql_result_metadata -Wl,-u,_mysql_send_query -Wl,-u,_mysql_server_end -Wl,-u,_mysql_server_init -Wl,-u,_mysql_session_track_get_first -Wl,-u,_mysql_session_track_get_next -Wl,-u,_mysql_set_character_set -Wl,-u,_mysql_set_local_infile_default -Wl,-u,_mysql_set_local_infile_handler -Wl,-u,_mysql_shutdown -Wl,-u,_mysql_sqlstate -Wl,-u,_mysql_ssl_set -Wl,-u,_mysql_stat -Wl,-u,_mysql_stmt_affected_rows -Wl,-u,_mysql_stmt_attr_get -Wl,-u,_mysql_stmt_attr_set -Wl,-u,_mysql_stmt_close -Wl,-u,_mysql_stmt_data_seek -Wl,-u,_mysql_stmt_errno -Wl,-u,_mysql_stmt_error -Wl,-u,_mysql_stmt_field_count -Wl,-u,_mysql_stmt_free_result -Wl,-u,_mysql_stmt_init -Wl,-u,_mysql_stmt_insert_id -Wl,-u,_mysql_stmt_next_result -Wl,-u,_mysql_stmt_num_rows -Wl,-u,_mysql_stmt_prepare -Wl,-u,_mysql_stmt_reset -Wl,-u,_mysql_stmt_row_seek -Wl,-u,_mysql_stmt_row_tell -Wl,-u,_mysql_stmt_sqlstate -Wl,-u,_mysql_stmt_store_result -Wl,-u,_mysql_store_result -Wl,-u,_mysql_thread_id -Wl,-u,_mysql_thread_safe -Wl,-u,_mysql_use_result -Wl,-u,_mysql_warning_count -Wl,-u,_mysql_real_connect_dns_srv -Wl,-u,_mysql_bind_param -Wl,-u,_mysql_plugin_get_option -Wl,-u,_mysql_get_ssl_session_reused -Wl,-u,_mysql_get_ssl_session_data -Wl,-u,_mysql_free_ssl_session_data -Wl,-u,_get_tty_password -Wl,-u,_my_load_defaults -Wl,-u,_handle_options -Wl,-u,_my_make_scrambled_password -Wl,-u,_mysql_fetch_row_nonblocking -Wl,-u,_mysql_free_result_nonblocking -Wl,-u,_mysql_next_result_nonblocking -Wl,-u,_mysql_real_connect_nonblocking -Wl,-u,_mysql_real_query_nonblocking -Wl,-u,_mysql_send_query_nonblocking -Wl,-u,_mysql_store_result_nonblocking",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "archive_output_directory/libclientlib.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "archive_output_directory/libmytime.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "archive_output_directory/libstrings.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "archive_output_directory/libvio.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "archive_output_directory/libmysys.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "archive_output_directory/libzlib.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "archive_output_directory/libzstd.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/usr/local/opt/openssl@1.1/lib/libssl.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/usr/local/opt/openssl@1.1/lib/libcrypto.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/lib/libresolv.tbd",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "archive_output_directory/libstrings.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "archive_output_directory/libmysys.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "archive_output_directory/libmytime.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "archive_output_directory/libzlib.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "archive_output_directory/libzstd.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/usr/local/opt/openssl@1.1/lib/libssl.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/usr/local/opt/openssl@1.1/lib/libcrypto.dylib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "libmysql",
+	"nameOnDisk" : "libmysqlclient.dylib",
+	"paths" : 
+	{
+		"build" : "libmysql",
+		"source" : "libmysql"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "~/Code/Git/cpp/mysql-8.0.30/build/libmysql/libmysql_dummy.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

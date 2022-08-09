@@ -1,0 +1,151 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"INSTALL",
+			"MYSQL_INSTALL_TARGET",
+			"MYSQL_ADD_PLUGIN"
+		],
+		"files" : 
+		[
+			"cmake/install_macros.cmake",
+			"cmake/plugin.cmake",
+			"plugin/semisync/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 29,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 244,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 116,
+				"parent" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 39,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 244,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 116,
+				"parent" : 5
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 48,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 244,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 116,
+				"parent" : 8
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 58,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 244,
+				"parent" : 10
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 116,
+				"parent" : 11
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "Server",
+			"destination" : "lib/plugin",
+			"paths" : 
+			[
+				"plugin_output_directory/semisync_source.so"
+			],
+			"targetId" : "semisync_source::@4929b039a5dc64b6eb12",
+			"targetIndex" : 714,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "Server",
+			"destination" : "lib/plugin",
+			"paths" : 
+			[
+				"plugin_output_directory/semisync_replica.so"
+			],
+			"targetId" : "semisync_replica::@4929b039a5dc64b6eb12",
+			"targetIndex" : 712,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "Server",
+			"destination" : "lib/plugin",
+			"paths" : 
+			[
+				"plugin_output_directory/semisync_master.so"
+			],
+			"targetId" : "semisync_master::@4929b039a5dc64b6eb12",
+			"targetIndex" : 711,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "Server",
+			"destination" : "lib/plugin",
+			"paths" : 
+			[
+				"plugin_output_directory/semisync_slave.so"
+			],
+			"targetId" : "semisync_slave::@4929b039a5dc64b6eb12",
+			"targetIndex" : 713,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "plugin/semisync",
+		"source" : "plugin/semisync"
+	}
+}

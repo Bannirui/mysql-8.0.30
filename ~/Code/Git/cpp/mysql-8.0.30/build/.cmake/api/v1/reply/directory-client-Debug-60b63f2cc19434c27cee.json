@@ -1,0 +1,421 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"INSTALL",
+			"MYSQL_INSTALL_TARGET",
+			"MYSQL_ADD_EXECUTABLE"
+		],
+		"files" : 
+		[
+			"cmake/install_macros.cmake",
+			"cmake/mysql_add_executable.cmake",
+			"client/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 39,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 197,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 116,
+				"parent" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 52,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 197,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 116,
+				"parent" : 5
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 58,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 197,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 116,
+				"parent" : 8
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 74,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 197,
+				"parent" : 10
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 116,
+				"parent" : 11
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 80,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 197,
+				"parent" : 13
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 116,
+				"parent" : 14
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 85,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 197,
+				"parent" : 16
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 116,
+				"parent" : 17
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 90,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 197,
+				"parent" : 19
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 116,
+				"parent" : 20
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 244,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 197,
+				"parent" : 22
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 116,
+				"parent" : 23
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 266,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 197,
+				"parent" : 25
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 116,
+				"parent" : 26
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 271,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 197,
+				"parent" : 28
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 116,
+				"parent" : 29
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 276,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 197,
+				"parent" : 31
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 116,
+				"parent" : 32
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 280,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 197,
+				"parent" : 34
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 116,
+				"parent" : 35
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 284,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 197,
+				"parent" : 37
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 116,
+				"parent" : 38
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "Client",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"runtime_output_directory/mysql"
+			],
+			"targetId" : "mysql::@b0c487aac068df482bf0",
+			"targetIndex" : 413,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "Client",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"runtime_output_directory/mysql_upgrade"
+			],
+			"targetId" : "mysql_upgrade::@b0c487aac068df482bf0",
+			"targetIndex" : 424,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "Test",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"runtime_output_directory/mysqltest"
+			],
+			"targetId" : "mysqltest::@b0c487aac068df482bf0",
+			"targetIndex" : 444,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "Client",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"runtime_output_directory/mysqlcheck"
+			],
+			"targetId" : "mysqlcheck::@b0c487aac068df482bf0",
+			"targetIndex" : 427,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 15,
+			"component" : "Client",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"runtime_output_directory/mysqldump"
+			],
+			"targetId" : "mysqldump::@b0c487aac068df482bf0",
+			"targetIndex" : 431,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 18,
+			"component" : "Client",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"runtime_output_directory/mysqlimport"
+			],
+			"targetId" : "mysqlimport::@b0c487aac068df482bf0",
+			"targetIndex" : 433,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 21,
+			"component" : "Client",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"runtime_output_directory/mysqlshow"
+			],
+			"targetId" : "mysqlshow::@b0c487aac068df482bf0",
+			"targetIndex" : 442,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 24,
+			"component" : "Client",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"runtime_output_directory/mysqlbinlog"
+			],
+			"targetId" : "mysqlbinlog::@b0c487aac068df482bf0",
+			"targetIndex" : 426,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 27,
+			"component" : "Client",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"runtime_output_directory/mysqladmin"
+			],
+			"targetId" : "mysqladmin::@b0c487aac068df482bf0",
+			"targetIndex" : 425,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 30,
+			"component" : "Client",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"runtime_output_directory/mysqlslap"
+			],
+			"targetId" : "mysqlslap::@b0c487aac068df482bf0",
+			"targetIndex" : 443,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 33,
+			"component" : "Client",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"runtime_output_directory/mysql_config_editor"
+			],
+			"targetId" : "mysql_config_editor::@b0c487aac068df482bf0",
+			"targetIndex" : 415,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 36,
+			"component" : "Client",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"runtime_output_directory/mysql_secure_installation"
+			],
+			"targetId" : "mysql_secure_installation::@b0c487aac068df482bf0",
+			"targetIndex" : 419,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 39,
+			"component" : "Client",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"runtime_output_directory/mysql_ssl_rsa_setup"
+			],
+			"targetId" : "mysql_ssl_rsa_setup::@b0c487aac068df482bf0",
+			"targetIndex" : 422,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "client",
+		"source" : "client"
+	}
+}

@@ -1,0 +1,162 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"INSTALL",
+			"MYSQL_CHECK_PROTOBUF_DLLS",
+			"MYSQL_CHECK_FIDO_DLLS"
+		],
+		"files" : 
+		[
+			"cmake/install_macros.cmake",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 1902,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 392,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 407,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 1928,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 509,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 2365,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 2373,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 2377,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 2388,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "SharedLibraries",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"~/Code/Git/cpp/mysql-8.0.30/build/runtime_output_directory/libprotobuf.3.19.4.dylib",
+				"~/Code/Git/cpp/mysql-8.0.30/build/runtime_output_directory/libprotobuf-lite.3.19.4.dylib"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "SharedLibraries",
+			"destination" : "lib/plugin",
+			"paths" : 
+			[
+				"~/Code/Git/cpp/mysql-8.0.30/build/plugin_output_directory/plugin/libprotobuf.3.19.4.dylib",
+				"~/Code/Git/cpp/mysql-8.0.30/build/plugin_output_directory/plugin/libprotobuf-lite.3.19.4.dylib"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "SharedLibraries",
+			"destination" : "lib/plugin",
+			"paths" : 
+			[
+				"~/Code/Git/cpp/mysql-8.0.30/build/plugin_output_directory/plugin/libfido2.1.dylib"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "Info",
+			"destination" : "docs",
+			"isOptional" : true,
+			"paths" : 
+			[
+				"Docs/mysql.info"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "Readme",
+			"destination" : ".",
+			"paths" : 
+			[
+				"README",
+				"LICENSE"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "Info",
+			"destination" : "docs",
+			"paths" : 
+			[
+				"~/Code/Git/cpp/mysql-8.0.30/build/Docs/INFO_SRC",
+				"~/Code/Git/cpp/mysql-8.0.30/build/Docs/INFO_BIN"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "Documentation",
+			"destination" : "docs",
+			"paths" : 
+			[
+				{
+					"from" : "Docs",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		}
+	],
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	}
+}
